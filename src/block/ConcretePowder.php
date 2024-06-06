@@ -27,7 +27,7 @@ use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\block\utils\ColoredTrait;
 use xpocketmc\block\utils\Fallable;
 use xpocketmc\block\utils\FallableTrait;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 class ConcretePowder extends Opaque implements Fallable{
 	use ColoredTrait;

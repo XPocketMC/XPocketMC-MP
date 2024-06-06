@@ -29,8 +29,8 @@ use xpocketmc\entity\Living;
 use xpocketmc\event\block\FarmlandHydrationChangeEvent;
 use xpocketmc\event\entity\EntityTrampleFarmlandEvent;
 use xpocketmc\item\Item;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 use function intdiv;
 use function lcg_value;
 

@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block;
 
 use xpocketmc\block\utils\StaticSupportTrait;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class Coral extends BaseCoral{
 	use StaticSupportTrait;

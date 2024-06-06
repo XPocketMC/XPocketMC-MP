@@ -27,7 +27,7 @@ use xpocketmc\block\Block;
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\entity\Location;
 use xpocketmc\entity\object\FallingBlock;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\world\Position;
 use xpocketmc\world\sound\Sound;

@@ -29,8 +29,8 @@ use xpocketmc\entity\effect\EffectInstance;
 use xpocketmc\entity\FoodSource;
 use xpocketmc\entity\Living;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 abstract class BaseCake extends Transparent implements FoodSource{

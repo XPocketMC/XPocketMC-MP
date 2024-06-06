@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\utils;
 
 use xpocketmc\data\bedrock\block\BlockLegacyMetadata;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class RailConnectionInfo{
 

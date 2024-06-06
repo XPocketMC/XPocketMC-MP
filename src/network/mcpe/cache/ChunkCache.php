@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\network\mcpe\cache;
 
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\network\mcpe\ChunkRequestTask;
 use xpocketmc\network\mcpe\compression\CompressBatchPromise;
 use xpocketmc\network\mcpe\compression\Compressor;

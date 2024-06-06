@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\utils;
 
 use xpocketmc\block\Block;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 
 /**
  * Used by blocks which always have the same support requirements no matter what state they are in.

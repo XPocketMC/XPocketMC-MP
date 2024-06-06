@@ -25,8 +25,8 @@ namespace xpocketmc\player;
 
 use xpocketmc\block\Block;
 use xpocketmc\entity\animation\ArmSwingAnimation;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\network\mcpe\protocol\LevelEventPacket;
 use xpocketmc\network\mcpe\protocol\types\LevelEvent;
 use xpocketmc\world\particle\BlockPunchParticle;

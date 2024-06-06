@@ -29,7 +29,7 @@ use xpocketmc\data\bedrock\item\SavedItemStackData;
 use xpocketmc\data\SavedDataLoadingException;
 use xpocketmc\inventory\SimpleInventory;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\NBT;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\ListTag;

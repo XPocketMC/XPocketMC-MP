@@ -27,7 +27,7 @@ use xpocketmc\entity\Entity;
 use xpocketmc\event\entity\EntityCombustByBlockEvent;
 use xpocketmc\event\entity\EntityDamageByBlockEvent;
 use xpocketmc\event\entity\EntityDamageEvent;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\world\sound\BucketEmptyLavaSound;
 use xpocketmc\world\sound\BucketFillLavaSound;
 use xpocketmc\world\sound\Sound;

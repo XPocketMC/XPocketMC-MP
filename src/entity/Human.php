@@ -41,7 +41,7 @@ use xpocketmc\item\enchantment\EnchantingHelper;
 use xpocketmc\item\enchantment\VanillaEnchantments;
 use xpocketmc\item\Item;
 use xpocketmc\item\Totem;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\NBT;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;

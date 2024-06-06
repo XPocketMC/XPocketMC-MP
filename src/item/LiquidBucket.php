@@ -27,7 +27,7 @@ use xpocketmc\block\Block;
 use xpocketmc\block\Lava;
 use xpocketmc\block\Liquid;
 use xpocketmc\event\player\PlayerBucketEmptyEvent;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class LiquidBucket extends Item{

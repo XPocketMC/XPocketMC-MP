@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\AmethystTrait;
 use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function array_rand;
 use function mt_rand;
 

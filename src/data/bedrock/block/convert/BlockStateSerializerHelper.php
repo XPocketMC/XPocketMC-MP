@@ -53,7 +53,7 @@ use xpocketmc\data\bedrock\block\BlockStateNames as StateNames;
 use xpocketmc\data\bedrock\block\BlockTypeNames as Ids;
 use xpocketmc\data\bedrock\block\convert\BlockStateWriter as Writer;
 use xpocketmc\data\bedrock\MushroomBlockTypeIdMap;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class BlockStateSerializerHelper{
 	public static function encodeButton(Button $block, Writer $out) : Writer{

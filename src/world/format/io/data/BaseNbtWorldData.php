@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\world\format\io\data;
 
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;
 use xpocketmc\world\format\io\exception\CorruptedWorldException;

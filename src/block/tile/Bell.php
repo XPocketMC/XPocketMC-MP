@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\block\tile;
 
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\network\mcpe\protocol\BlockActorDataPacket;
 use xpocketmc\network\mcpe\protocol\types\BlockPosition;

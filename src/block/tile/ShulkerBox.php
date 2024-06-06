@@ -25,8 +25,8 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\block\inventory\ShulkerBoxInventory;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\world\World;
 

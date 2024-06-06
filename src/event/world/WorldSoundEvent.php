@@ -25,7 +25,7 @@ namespace xpocketmc\event\world;
 
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\Sound;
 use xpocketmc\world\World;

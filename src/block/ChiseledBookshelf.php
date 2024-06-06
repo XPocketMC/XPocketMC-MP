@@ -33,8 +33,8 @@ use xpocketmc\item\EnchantedBook;
 use xpocketmc\item\Item;
 use xpocketmc\item\WritableBookBase;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use function spl_object_id;
 

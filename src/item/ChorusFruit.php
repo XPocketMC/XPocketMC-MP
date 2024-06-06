@@ -25,7 +25,7 @@ namespace xpocketmc\item;
 
 use xpocketmc\block\Liquid;
 use xpocketmc\entity\Living;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\world\sound\EndermanTeleportSound;
 use function min;
 use function mt_rand;

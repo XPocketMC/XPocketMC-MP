@@ -24,8 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\world\generator\object;
 
 use xpocketmc\block\VanillaBlocks;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\utils\Random;
 use xpocketmc\world\BlockTransaction;
 use function abs;

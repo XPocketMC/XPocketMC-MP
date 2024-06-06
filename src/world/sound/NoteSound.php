@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\world\sound;
 
 use xpocketmc\data\bedrock\NoteInstrumentIdMap;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
 use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
 

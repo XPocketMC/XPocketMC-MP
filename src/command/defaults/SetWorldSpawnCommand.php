@@ -27,7 +27,7 @@ use xpocketmc\command\Command;
 use xpocketmc\command\CommandSender;
 use xpocketmc\command\utils\InvalidCommandSyntaxException;
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\permission\DefaultPermissionNames;
 use xpocketmc\player\Player;
 use xpocketmc\utils\TextFormat;

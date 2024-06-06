@@ -28,7 +28,7 @@ use xpocketmc\event\entity\EntityDamageEvent;
 use xpocketmc\inventory\ArmorInventory;
 use xpocketmc\item\enchantment\ProtectionEnchantment;
 use xpocketmc\item\enchantment\VanillaEnchantments;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;
 use xpocketmc\player\Player;

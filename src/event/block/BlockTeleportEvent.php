@@ -26,7 +26,7 @@ namespace xpocketmc\event\block;
 use xpocketmc\block\Block;
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\utils\Utils;
 
 class BlockTeleportEvent extends BlockEvent implements Cancellable{

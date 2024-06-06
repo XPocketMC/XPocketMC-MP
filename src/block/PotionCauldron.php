@@ -27,7 +27,7 @@ use xpocketmc\block\tile\Cauldron as TileCauldron;
 use xpocketmc\item\Item;
 use xpocketmc\item\ItemTypeIds;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\CauldronEmptyPotionSound;
 use xpocketmc\world\sound\CauldronFillPotionSound;

@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\inventory\CraftingTableInventory;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class CraftingTable extends Opaque{

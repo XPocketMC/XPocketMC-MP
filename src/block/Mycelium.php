@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\block\utils\DirtType;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function mt_rand;
 
 class Mycelium extends Opaque{

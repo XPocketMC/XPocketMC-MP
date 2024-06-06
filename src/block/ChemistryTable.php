@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\FacesOppositePlacingPlayerTrait;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 final class ChemistryTable extends Opaque{

@@ -28,7 +28,7 @@ use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\block\utils\FortuneDropHelper;
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function mt_rand;
 
 class NetherWartPlant extends Flowable{

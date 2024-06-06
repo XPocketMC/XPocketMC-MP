@@ -25,7 +25,7 @@ namespace xpocketmc\block\utils;
 
 use xpocketmc\block\Block;
 use xpocketmc\entity\projectile\Projectile;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\RayTraceResult;
 use xpocketmc\world\sound\AmethystBlockChimeSound;
 use xpocketmc\world\sound\BlockPunchSound;
 

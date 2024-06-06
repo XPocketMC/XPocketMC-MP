@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\inventory\CartographyTableInventory;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 final class CartographyTable extends Opaque{

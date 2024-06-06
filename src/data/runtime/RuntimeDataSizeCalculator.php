@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\data\runtime;
 
 use xpocketmc\block\utils\BrewingStandSlot;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function count;
 use function log;
 

@@ -27,7 +27,7 @@ use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\block\utils\CropGrowthHelper;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function array_rand;
 use function mt_rand;
 

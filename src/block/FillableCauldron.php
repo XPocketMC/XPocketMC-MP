@@ -26,8 +26,8 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Item;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 use xpocketmc\world\sound\Sound;
 use function min;
 

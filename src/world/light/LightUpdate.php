@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\world\light;
 
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\world\format\LightArray;
 use xpocketmc\world\format\SubChunk;
 use xpocketmc\world\utils\SubChunkExplorer;

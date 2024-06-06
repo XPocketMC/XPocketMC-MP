@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\RailConnectionInfo;
 use xpocketmc\data\bedrock\block\BlockLegacyMetadata;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function array_keys;
 use function implode;
 

@@ -27,7 +27,7 @@ use xpocketmc\block\utils\AnalogRedstoneSignalEmitterTrait;
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 class RedstoneWire extends Flowable{
 	use AnalogRedstoneSignalEmitterTrait;

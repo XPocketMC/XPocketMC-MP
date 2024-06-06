@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\block\utils\TallGrassTrait;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 class TallGrass extends Flowable{
 	use TallGrassTrait;

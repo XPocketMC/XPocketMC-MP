@@ -26,7 +26,7 @@ namespace xpocketmc\data\runtime;
 use xpocketmc\block\utils\BrewingStandSlot;
 use xpocketmc\block\utils\WallConnectionType;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function array_flip;
 use function log;
 use function spl_object_id;

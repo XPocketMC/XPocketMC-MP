@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\item\enchantment\VanillaEnchantments;
 use xpocketmc\item\Item;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class HangingRoots extends Flowable{
 	use StaticSupportTrait;

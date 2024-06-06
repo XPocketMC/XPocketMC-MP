@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use xpocketmc\block\inventory\HopperInventory;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\world\World;
 

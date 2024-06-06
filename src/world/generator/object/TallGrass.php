@@ -26,7 +26,7 @@ namespace xpocketmc\world\generator\object;
 use xpocketmc\block\Block;
 use xpocketmc\block\BlockTypeIds;
 use xpocketmc\block\VanillaBlocks;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\utils\Random;
 use xpocketmc\world\ChunkManager;
 use function count;

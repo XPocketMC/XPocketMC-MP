@@ -29,7 +29,7 @@ use xpocketmc\block\utils\LightableTrait;
 use xpocketmc\crafting\FurnaceType;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use function mt_rand;
 

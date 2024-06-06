@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\world;
 
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\utils\Limits;
 use xpocketmc\utils\Utils;
 use xpocketmc\world\generator\Generator;

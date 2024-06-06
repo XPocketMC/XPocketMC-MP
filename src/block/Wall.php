@@ -27,8 +27,8 @@ use xpocketmc\block\utils\SupportType;
 use xpocketmc\block\utils\WallConnectionType;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\math\Axis;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 /**
  * @phpstan-type WallConnectionSet array<Facing::NORTH|Facing::EAST|Facing::SOUTH|Facing::WEST, WallConnectionType>

@@ -25,8 +25,8 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\FacesOppositePlacingPlayerTrait;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 class EndPortalFrame extends Opaque{
 	use FacesOppositePlacingPlayerTrait;

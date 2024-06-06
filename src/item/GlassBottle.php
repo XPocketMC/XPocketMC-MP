@@ -25,7 +25,7 @@ namespace xpocketmc\item;
 
 use xpocketmc\block\Block;
 use xpocketmc\block\BlockTypeIds;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class GlassBottle extends Item{

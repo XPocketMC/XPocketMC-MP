@@ -32,7 +32,7 @@ use xpocketmc\event\server\DataPacketSendEvent;
 use xpocketmc\form\Form;
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\StringTag;
 use xpocketmc\network\mcpe\cache\ChunkCache;

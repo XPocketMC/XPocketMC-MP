@@ -25,7 +25,7 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\block\utils\SignText;
 use xpocketmc\color\Color;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\ByteTag;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;

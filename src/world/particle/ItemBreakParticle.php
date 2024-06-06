@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\world\particle;
 
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\network\mcpe\convert\TypeConverter;
 use xpocketmc\network\mcpe\protocol\LevelEventPacket;
 use xpocketmc\network\mcpe\protocol\types\ParticleIds;

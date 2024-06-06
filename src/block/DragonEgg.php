@@ -28,7 +28,7 @@ use xpocketmc\block\utils\FallableTrait;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\event\block\BlockTeleportEvent;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\GameMode;
 use xpocketmc\player\Player;
 use xpocketmc\world\particle\DragonEggTeleportParticle;

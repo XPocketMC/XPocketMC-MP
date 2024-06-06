@@ -61,7 +61,7 @@ use xpocketmc\data\bedrock\block\BlockStateNames as StateNames;
 use xpocketmc\data\bedrock\block\BlockStateStringValues as StringValues;
 use xpocketmc\data\bedrock\MushroomBlockTypeIdMap;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\utils\AssumptionFailedError;
 
 final class BlockStateDeserializerHelper{

@@ -25,7 +25,7 @@ namespace xpocketmc\entity\projectile;
 
 use xpocketmc\block\Block;
 use xpocketmc\entity\EntitySizeInfo;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\RayTraceResult;
 
 abstract class Throwable extends Projectile{
 

@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\block;
 
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class SoulFire extends BaseFire{
 

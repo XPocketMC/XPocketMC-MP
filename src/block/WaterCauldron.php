@@ -36,7 +36,7 @@ use xpocketmc\item\Potion;
 use xpocketmc\item\PotionType;
 use xpocketmc\item\SplashPotion;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\CauldronAddDyeSound;
 use xpocketmc\world\sound\CauldronCleanItemSound;

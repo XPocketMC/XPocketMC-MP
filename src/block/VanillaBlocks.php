@@ -63,7 +63,7 @@ use xpocketmc\crafting\FurnaceType;
 use xpocketmc\item\enchantment\ItemEnchantmentTags as EnchantmentTags;
 use xpocketmc\item\Item;
 use xpocketmc\item\ToolTier;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\utils\CloningRegistryTrait;
 use function mb_strtolower;
 use function strtolower;

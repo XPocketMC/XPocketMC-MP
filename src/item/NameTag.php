@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\item;
 
 use xpocketmc\entity\Entity;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class NameTag extends Item{

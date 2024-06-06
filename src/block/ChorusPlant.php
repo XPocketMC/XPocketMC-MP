@@ -27,8 +27,8 @@ use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
 use xpocketmc\math\Axis;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 use function mt_rand;
 
 final class ChorusPlant extends Flowable{

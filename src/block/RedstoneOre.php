@@ -27,7 +27,7 @@ use xpocketmc\block\utils\FortuneDropHelper;
 use xpocketmc\block\utils\LightableTrait;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use function mt_rand;
 

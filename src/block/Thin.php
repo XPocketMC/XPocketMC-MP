@@ -25,8 +25,8 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\math\Axis;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 use function count;
 
 /**

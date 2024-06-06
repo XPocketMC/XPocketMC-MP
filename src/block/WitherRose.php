@@ -28,7 +28,7 @@ use xpocketmc\entity\effect\EffectInstance;
 use xpocketmc\entity\effect\VanillaEffects;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\Living;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 class WitherRose extends Flowable{
 	use StaticSupportTrait;

@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\block\utils\SupportType;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class SporeBlossom extends Flowable{
 	use StaticSupportTrait;

@@ -26,7 +26,7 @@ namespace xpocketmc\item;
 use xpocketmc\block\Block;
 use xpocketmc\block\RuntimeBlockStateRegistry;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 class ItemBlockWallOrFloor extends Item{
 	private int $floorVariant;

@@ -31,7 +31,7 @@ use xpocketmc\entity\Location;
 use xpocketmc\event\entity\EntityItemPickupEvent;
 use xpocketmc\event\entity\ProjectileHitEvent;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\RayTraceResult;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\network\mcpe\EntityEventBroadcaster;
 use xpocketmc\network\mcpe\NetworkBroadcastUtils;

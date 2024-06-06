@@ -30,8 +30,8 @@ use xpocketmc\block\utils\SupportType;
 use xpocketmc\entity\Entity;
 use xpocketmc\event\entity\EntityDamageByBlockEvent;
 use xpocketmc\event\entity\EntityDamageEvent;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 class Cactus extends Transparent{
 	use AgeableTrait;

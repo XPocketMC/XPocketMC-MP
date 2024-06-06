@@ -25,7 +25,7 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\block\inventory\ChestInventory;
 use xpocketmc\block\inventory\DoubleChestInventory;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;
 use xpocketmc\world\format\Chunk;

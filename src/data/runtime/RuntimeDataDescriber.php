@@ -25,7 +25,7 @@ namespace xpocketmc\data\runtime;
 
 use xpocketmc\block\utils\BrewingStandSlot;
 use xpocketmc\block\utils\WallConnectionType;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 /**
  * Interface implemented by {@link RuntimeDataReader}, {@link RuntimeDataWriter} and {@link RuntimeDataSizeCalculator}.

@@ -27,9 +27,9 @@ use xpocketmc\block\utils\DripleafState;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\projectile\Projectile;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
+use pocketmine\math\RayTraceResult;
 use xpocketmc\world\sound\DripleafTiltDownSound;
 use xpocketmc\world\sound\DripleafTiltUpSound;
 

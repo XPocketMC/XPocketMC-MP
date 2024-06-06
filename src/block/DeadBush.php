@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function mt_rand;
 
 class DeadBush extends Flowable{

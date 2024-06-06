@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block;
 
 use xpocketmc\block\utils\SupportType;
-use xpocketmc\math\AxisAlignedBB;
+use pocketmine\math\AxisAlignedBB;
 
 /**
  * "Flowable" blocks are destroyed if water flows into the same space as the block. These blocks usually don't have any

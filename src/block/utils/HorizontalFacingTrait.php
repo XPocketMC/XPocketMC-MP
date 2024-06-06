@@ -25,7 +25,7 @@ namespace xpocketmc\block\utils;
 
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 trait HorizontalFacingTrait{
 	protected int $facing = Facing::NORTH;

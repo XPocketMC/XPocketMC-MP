@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\block\utils;
 
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\utils\LegacyEnumShimTrait;
 
 /**

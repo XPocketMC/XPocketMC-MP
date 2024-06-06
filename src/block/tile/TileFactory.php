@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use xpocketmc\data\SavedDataLoadingException;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\NbtException;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\utils\SingletonTrait;

@@ -28,7 +28,7 @@ use xpocketmc\block\utils\WoodTypeTrait;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Axe;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\ItemUseOnBlockSound;
 

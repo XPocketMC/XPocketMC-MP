@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\utils;
 
 use xpocketmc\block\Block;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\world\World;
 use function array_fill_keys;
 use function intdiv;

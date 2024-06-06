@@ -28,7 +28,7 @@ use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\entity\Entity;
 use xpocketmc\item\Item;
 use xpocketmc\math\Axis;
-use xpocketmc\math\AxisAlignedBB;
+use pocketmine\math\AxisAlignedBB;
 
 class NetherPortal extends Transparent{
 

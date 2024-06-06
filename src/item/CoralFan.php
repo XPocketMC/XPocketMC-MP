@@ -28,7 +28,7 @@ use xpocketmc\block\utils\CoralTypeTrait;
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 
 final class CoralFan extends Item{
 	use CoralTypeTrait {

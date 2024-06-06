@@ -28,7 +28,7 @@ use xpocketmc\entity\EntitySizeInfo;
 use xpocketmc\entity\Explosive;
 use xpocketmc\event\entity\EntityDamageEvent;
 use xpocketmc\event\entity\EntityPreExplodeEvent;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
 use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;

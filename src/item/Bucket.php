@@ -28,7 +28,7 @@ use xpocketmc\block\BlockTypeIds;
 use xpocketmc\block\Liquid;
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\event\player\PlayerBucketFillEvent;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class Bucket extends Item{

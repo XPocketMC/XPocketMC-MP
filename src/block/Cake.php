@@ -26,9 +26,9 @@ namespace xpocketmc\block;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Item;
 use xpocketmc\item\ItemBlock;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 class Cake extends BaseCake{

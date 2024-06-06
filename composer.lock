@@ -221,9 +221,9 @@
                 "ext-json": "*",
                 "php": "^8.1",
                 "pocketmine/binaryutils": "^0.2.0",
-                "pocketmine/color": "^0.2.0 || ^0.3.0",
-                "pocketmine/math": "^0.3.0 || ^0.4.0 || ^1.0.0",
-                "pocketmine/nbt": "^1.0.0",
+                "xpocketmc/color": "^0.2.0 || ^0.3.0",
+                "xpocketmc/math": "^0.3.0 || ^0.4.0 || ^1.0.0",
+                "xpocketmc/nbt": "^1.0.0",
                 "ramsey/uuid": "^4.1"
             },
             "require-dev": {
@@ -342,7 +342,7 @@
             "time": "2020-12-11T01:45:37+00:00"
         },
         {
-            "name": "pocketmine/color",
+            "name": "xpocketmc/color",
             "version": "0.3.1",
             "source": {
                 "type": "git",
@@ -483,7 +483,7 @@
             "time": "2021-06-18T19:08:09+00:00"
         },
         {
-            "name": "pocketmine/math",
+            "name": "xpocketmc/math",
             "version": "1.0.0",
             "source": {
                 "type": "git",
@@ -524,7 +524,7 @@
             "time": "2023-08-03T12:56:33+00:00"
         },
         {
-            "name": "pocketmine/nbt",
+            "name": "xpocketmc/nbt",
             "version": "1.0.0",
             "source": {
                 "type": "git",

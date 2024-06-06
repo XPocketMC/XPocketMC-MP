@@ -25,8 +25,8 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\ColoredTrait;
 use xpocketmc\block\utils\StaticSupportTrait;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 class Carpet extends Flowable{
 	use ColoredTrait;

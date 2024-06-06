@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\entity;
 
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\world\Position;
 use xpocketmc\world\World;
 

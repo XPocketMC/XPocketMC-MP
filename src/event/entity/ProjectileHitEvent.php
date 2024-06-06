@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\event\entity;
 
 use xpocketmc\entity\projectile\Projectile;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\RayTraceResult;
 
 /**
  * @allowHandle

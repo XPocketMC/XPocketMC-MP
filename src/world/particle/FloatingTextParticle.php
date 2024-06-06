@@ -25,7 +25,7 @@ namespace xpocketmc\world\particle;
 
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\entity\Entity;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\network\mcpe\convert\TypeConverter;
 use xpocketmc\network\mcpe\protocol\AddActorPacket;
 use xpocketmc\network\mcpe\protocol\RemoveActorPacket;

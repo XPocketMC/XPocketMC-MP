@@ -31,7 +31,7 @@ use xpocketmc\event\entity\EntityDamageEvent;
 use xpocketmc\item\Item;
 use xpocketmc\item\ItemTypeIds;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\CauldronEmptyLavaSound;
 use xpocketmc\world\sound\CauldronFillLavaSound;

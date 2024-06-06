@@ -30,8 +30,8 @@ use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Fertilizer;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 
 final class TorchflowerCrop extends Flowable{

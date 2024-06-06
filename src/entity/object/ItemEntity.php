@@ -32,7 +32,7 @@ use xpocketmc\event\entity\ItemDespawnEvent;
 use xpocketmc\event\entity\ItemMergeEvent;
 use xpocketmc\event\entity\ItemSpawnEvent;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\network\mcpe\EntityEventBroadcaster;
 use xpocketmc\network\mcpe\NetworkBroadcastUtils;

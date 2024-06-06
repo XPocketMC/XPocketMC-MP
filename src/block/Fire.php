@@ -27,7 +27,7 @@ use xpocketmc\block\utils\AgeableTrait;
 use xpocketmc\block\utils\BlockEventHelper;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\event\block\BlockBurnEvent;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use xpocketmc\world\format\Chunk;
 use xpocketmc\world\World;
 use function intdiv;

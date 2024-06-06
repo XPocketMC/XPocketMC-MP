@@ -44,7 +44,7 @@ use xpocketmc\item\Durable;
 use xpocketmc\item\enchantment\Enchantment;
 use xpocketmc\item\enchantment\VanillaEnchantments;
 use xpocketmc\item\Item;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\math\VoxelRayTrace;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\FloatTag;

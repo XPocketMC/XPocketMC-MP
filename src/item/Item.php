@@ -38,7 +38,7 @@ use xpocketmc\data\SavedDataLoadingException;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\Living;
 use xpocketmc\item\enchantment\EnchantmentInstance;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\LittleEndianNbtSerializer;
 use xpocketmc\nbt\NBT;
 use xpocketmc\nbt\NbtException;

@@ -27,7 +27,7 @@ use xpocketmc\data\runtime\RuntimeDataDescriber;
 use xpocketmc\item\Axe;
 use xpocketmc\item\Item;
 use xpocketmc\item\ItemTypeIds;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\CopperWaxApplySound;
 use xpocketmc\world\sound\CopperWaxRemoveSound;

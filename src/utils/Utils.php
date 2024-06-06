@@ -30,7 +30,7 @@ namespace xpocketmc\utils;
 use DaveRandom\CallbackValidator\CallbackType;
 use xpocketmc\entity\Location;
 use xpocketmc\errorhandler\ErrorTypeToStringMap;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\thread\ThreadCrashInfoFrame;
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;

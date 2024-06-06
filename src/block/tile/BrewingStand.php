@@ -31,7 +31,7 @@ use xpocketmc\inventory\CallbackInventoryListener;
 use xpocketmc\inventory\Inventory;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\network\mcpe\protocol\ContainerSetDataPacket;
 use xpocketmc\player\Player;

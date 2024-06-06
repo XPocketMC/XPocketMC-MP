@@ -178,7 +178,7 @@ use xpocketmc\data\bedrock\block\BlockTypeNames as Ids;
 use xpocketmc\data\bedrock\block\convert\BlockStateSerializerHelper as Helper;
 use xpocketmc\data\bedrock\block\convert\BlockStateWriter as Writer;
 use xpocketmc\math\Axis;
-use xpocketmc\math\Facing;
+use pocketmine\math\Facing;
 use function get_class;
 
 final class BlockObjectToStateSerializer implements BlockStateSerializer{

@@ -25,7 +25,7 @@ namespace xpocketmc\item;
 
 use xpocketmc\block\Block;
 use xpocketmc\entity\Entity;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\World;
 use function lcg_value;

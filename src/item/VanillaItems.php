@@ -35,7 +35,7 @@ use xpocketmc\item\enchantment\ItemEnchantmentTags as EnchantmentTags;
 use xpocketmc\item\ItemIdentifier as IID;
 use xpocketmc\item\ItemTypeIds as Ids;
 use xpocketmc\item\VanillaArmorMaterials as ArmorMaterials;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\utils\CloningRegistryTrait;
 use xpocketmc\world\World;
 use function strtolower;

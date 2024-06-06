@@ -24,9 +24,9 @@ declare(strict_types=1);
 namespace xpocketmc\block;
 
 use xpocketmc\block\utils\StaticSupportTrait;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
-use xpocketmc\math\Vector3;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
+use pocketmine\math\Vector3;
 
 class WaterLily extends Flowable{
 	use StaticSupportTrait {

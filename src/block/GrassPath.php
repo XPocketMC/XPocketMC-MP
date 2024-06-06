@@ -24,8 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\block;
 
 use xpocketmc\item\Item;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 class GrassPath extends Transparent{
 

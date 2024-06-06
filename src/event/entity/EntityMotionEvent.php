@@ -26,7 +26,7 @@ namespace xpocketmc\event\entity;
 use xpocketmc\entity\Entity;
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 
 /**
  * @phpstan-extends EntityEvent<Entity>

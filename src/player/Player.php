@@ -101,7 +101,7 @@ use xpocketmc\item\Releasable;
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Language;
 use xpocketmc\lang\Translatable;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;
 use xpocketmc\network\mcpe\NetworkSession;

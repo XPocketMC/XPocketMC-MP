@@ -26,7 +26,7 @@ namespace xpocketmc\item;
 use xpocketmc\entity\Location;
 use xpocketmc\entity\projectile\Throwable;
 use xpocketmc\event\entity\ProjectileLaunchEvent;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\ThrowSound;
 

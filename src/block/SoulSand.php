@@ -23,8 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\block;
 
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 class SoulSand extends Opaque{
 

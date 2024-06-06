@@ -35,7 +35,7 @@ use xpocketmc\entity\Location;
 use xpocketmc\event\entity\EntityBlockChangeEvent;
 use xpocketmc\event\entity\EntityDamageByEntityEvent;
 use xpocketmc\event\entity\EntityDamageEvent;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\nbt\tag\ByteTag;
 use xpocketmc\nbt\tag\CompoundTag;
 use xpocketmc\nbt\tag\IntTag;

@@ -27,7 +27,7 @@ use xpocketmc\block\tile\Jukebox as JukeboxTile;
 use xpocketmc\item\Item;
 use xpocketmc\item\Record;
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\math\Vector3;
+use pocketmine\math\Vector3;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\RecordSound;
 use xpocketmc\world\sound\RecordStopSound;

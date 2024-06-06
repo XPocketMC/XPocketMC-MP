@@ -25,7 +25,7 @@ namespace xpocketmc\event\entity;
 
 use xpocketmc\block\Block;
 use xpocketmc\entity\projectile\Projectile;
-use xpocketmc\math\RayTraceResult;
+use pocketmine\math\RayTraceResult;
 
 class ProjectileHitBlockEvent extends ProjectileHitEvent{
 	public function __construct(

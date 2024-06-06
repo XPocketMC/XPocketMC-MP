@@ -26,8 +26,8 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\PillarRotationTrait;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\math\Axis;
-use xpocketmc\math\AxisAlignedBB;
-use xpocketmc\math\Facing;
+use pocketmine\math\AxisAlignedBB;
+use pocketmine\math\Facing;
 
 final class Chain extends Transparent{
 	use PillarRotationTrait;

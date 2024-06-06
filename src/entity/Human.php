@@ -42,30 +42,54 @@ use xpocketmc\item\enchantment\VanillaEnchantments;
 use xpocketmc\item\Item;
 use xpocketmc\item\Totem;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\AddPlayerPacket;
-use xpocketmc\network\mcpe\protocol\PlayerListPacket;
-use xpocketmc\network\mcpe\protocol\PlayerSkinPacket;
-use xpocketmc\network\mcpe\protocol\types\AbilitiesData;
-use xpocketmc\network\mcpe\protocol\types\AbilitiesLayer;
-use xpocketmc\network\mcpe\protocol\types\command\CommandPermissions;
-use xpocketmc\network\mcpe\protocol\types\DeviceOS;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
-use xpocketmc\network\mcpe\protocol\types\entity\PropertySyncData;
-use xpocketmc\network\mcpe\protocol\types\entity\StringMetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\GameMode;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackWrapper;
-use xpocketmc\network\mcpe\protocol\types\PlayerListEntry;
-use xpocketmc\network\mcpe\protocol\types\PlayerPermissions;
-use xpocketmc\network\mcpe\protocol\UpdateAbilitiesPacket;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\AddPlayerPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerListPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerSkinPacket;
+use pocketmine
+etwork\mcpe\protocol\types\AbilitiesData;
+use pocketmine
+etwork\mcpe\protocol\types\AbilitiesLayer;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandPermissions;
+use pocketmine
+etwork\mcpe\protocol\types\DeviceOS;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+etwork\mcpe\protocol\types\entity\PropertySyncData;
+use pocketmine
+etwork\mcpe\protocol\types\entity\StringMetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\GameMode;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackWrapper;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerListEntry;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerPermissions;
+use pocketmine
+etwork\mcpe\protocol\UpdateAbilitiesPacket;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\TotemUseSound;
 use Ramsey\Uuid\Uuid;

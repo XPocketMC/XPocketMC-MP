@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\raklib;
+namespace pocketmine
+etwork\mcpe\raklib;
 
 use pmmp\thread\ThreadSafeArray;
 use raklib\server\ipc\InterThreadChannelReader;

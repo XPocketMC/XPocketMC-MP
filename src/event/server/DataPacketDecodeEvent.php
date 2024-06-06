@@ -25,7 +25,8 @@ namespace xpocketmc\event\server;
 
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
-use xpocketmc\network\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\NetworkSession;
 
 /**
  * Called before a packet is decoded and handled by the network session.

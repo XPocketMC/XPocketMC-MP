@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\encryption;
+namespace pocketmine
+etwork\mcpe\encryption;
 
-use xpocketmc\network\mcpe\JwtUtils;
+use pocketmine
+etwork\mcpe\JwtUtils;
 use xpocketmc\scheduler\AsyncTask;
 use xpocketmc\utils\AssumptionFailedError;
 use function igbinary_serialize;

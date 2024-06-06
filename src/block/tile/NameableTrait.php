@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use xpocketmc\item\Item;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\StringTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\StringTag;
 
 /**
  * This trait implements most methods in the {@link Nameable} interface. It should only be used by Tiles.

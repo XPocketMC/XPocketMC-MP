@@ -27,10 +27,14 @@ use xpocketmc\entity\Entity;
 use xpocketmc\entity\EntitySizeInfo;
 use xpocketmc\entity\Human;
 use xpocketmc\entity\Location;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
 use xpocketmc\player\Player;
 use function max;
 use function sqrt;

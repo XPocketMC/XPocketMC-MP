@@ -21,11 +21,15 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerUIIds;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerUIIds;
+use pocketmine
+etwork\PacketHandlingException;
 
 final class ItemStackContainerIdTranslator{
 

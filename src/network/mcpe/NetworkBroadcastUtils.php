@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
 use xpocketmc\player\Player;
 use xpocketmc\timings\Timings;
 use function count;

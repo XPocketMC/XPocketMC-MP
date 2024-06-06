@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc;
 
 use xpocketmc\event\server\LowMemoryEvent;
-use xpocketmc\network\mcpe\cache\ChunkCache;
+use pocketmine
+etwork\mcpe\cache\ChunkCache;
 use xpocketmc\scheduler\DumpWorkerMemoryTask;
 use xpocketmc\scheduler\GarbageCollectionTask;
 use xpocketmc\timings\Timings;

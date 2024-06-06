@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\data\bedrock\item;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\VersionInfo;
 
 final class SavedItemData{

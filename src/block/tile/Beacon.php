@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\block\tile;
 
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 final class Beacon extends Spawnable{
 	private const TAG_PRIMARY = "primary"; //TAG_Int

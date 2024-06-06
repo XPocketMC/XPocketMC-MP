@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\block\inventory\EnchantInventory;
 use xpocketmc\inventory\Inventory;
@@ -34,24 +35,42 @@ use xpocketmc\inventory\transaction\InventoryTransaction;
 use xpocketmc\inventory\transaction\TransactionBuilder;
 use xpocketmc\inventory\transaction\TransactionBuilderInventory;
 use xpocketmc\item\Item;
-use xpocketmc\network\mcpe\InventoryManager;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerUIIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\CraftingConsumeInputStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\CraftingCreateSpecificResultStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\CraftRecipeAutoStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\CraftRecipeStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\CreativeCreateStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\DeprecatedCraftingResultsStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\DestroyStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\DropStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\ItemStackRequest;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\ItemStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\ItemStackRequestSlotInfo;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\PlaceStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\SwapStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\TakeStackRequestAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
-use xpocketmc\network\mcpe\protocol\types\inventory\UIInventorySlotOffset;
+use pocketmine
+etwork\mcpe\InventoryManager;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerUIIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\CraftingConsumeInputStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\CraftingCreateSpecificResultStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\CraftRecipeAutoStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\CraftRecipeStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\CreativeCreateStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\DeprecatedCraftingResultsStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\DestroyStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\DropStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\ItemStackRequest;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\ItemStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\ItemStackRequestSlotInfo;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\PlaceStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\SwapStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\TakeStackRequestAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\UIInventorySlotOffset;
 use xpocketmc\player\Player;
 use xpocketmc\utils\AssumptionFailedError;
 use function array_key_first;

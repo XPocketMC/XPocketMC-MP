@@ -21,11 +21,13 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\entity\InvalidSkinException;
 use xpocketmc\entity\Skin;
-use xpocketmc\network\mcpe\protocol\types\skin\SkinData;
+use pocketmine
+etwork\mcpe\protocol\types\skin\SkinData;
 
 /**
  * Used to convert new skin data to the skin entity or old skin entity to skin data.

@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\player;
 
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 /**
  * Handles storage of player data. Implementations must treat player names in a case-insensitive manner.

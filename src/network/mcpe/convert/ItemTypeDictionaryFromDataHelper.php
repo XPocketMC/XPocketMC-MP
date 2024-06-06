@@ -21,10 +21,13 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
-use xpocketmc\network\mcpe\protocol\serializer\ItemTypeDictionary;
-use xpocketmc\network\mcpe\protocol\types\ItemTypeEntry;
+use pocketmine
+etwork\mcpe\protocol\serializer\ItemTypeDictionary;
+use pocketmine
+etwork\mcpe\protocol\types\ItemTypeEntry;
 use xpocketmc\utils\AssumptionFailedError;
 use function is_array;
 use function is_bool;

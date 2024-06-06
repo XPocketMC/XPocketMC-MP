@@ -27,8 +27,10 @@ use xpocketmc\block\Block;
 use xpocketmc\entity\animation\ArmSwingAnimation;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelEvent;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelEvent;
 use xpocketmc\world\particle\BlockPunchParticle;
 use xpocketmc\world\sound\BlockPunchSound;
 use function abs;

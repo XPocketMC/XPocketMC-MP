@@ -27,9 +27,11 @@ use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockStateNames;
 use xpocketmc\data\bedrock\block\BlockStateStringValues;
 use xpocketmc\data\bedrock\block\BlockTypeNames;
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\network\mcpe\convert\BlockStateDictionary;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
+use pocketmine
+bt\NbtException;
+use pocketmine
+etwork\mcpe\convert\BlockStateDictionary;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Utils;
 use function array_values;

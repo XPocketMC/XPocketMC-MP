@@ -23,10 +23,14 @@ declare(strict_types=1);
 
 namespace xpocketmc\world\format\io\region;
 
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\ByteArrayTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\ByteArrayTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
 use xpocketmc\world\format\io\BaseWorldProvider;
 use xpocketmc\world\format\io\data\JavaWorldData;
 use xpocketmc\world\format\io\exception\CorruptedChunkException;

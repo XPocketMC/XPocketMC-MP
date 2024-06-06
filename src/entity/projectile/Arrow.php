@@ -32,12 +32,18 @@ use xpocketmc\event\entity\EntityItemPickupEvent;
 use xpocketmc\event\entity\ProjectileHitEvent;
 use xpocketmc\item\VanillaItems;
 use pocketmine\math\RayTraceResult;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
 use xpocketmc\player\Player;
 use xpocketmc\world\sound\ArrowHitSound;
 use function ceil;

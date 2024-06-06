@@ -25,7 +25,8 @@ namespace xpocketmc\data\bedrock\block\upgrade;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockStateDeserializeException;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
+use pocketmine
+bt\LittleEndianNbtSerializer;
 use xpocketmc\utils\BinaryDataException;
 use xpocketmc\utils\BinaryStream;
 

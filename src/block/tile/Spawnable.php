@@ -24,15 +24,21 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use xpocketmc\block\Block;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\protocol\types\CacheableNbt;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\protocol\types\CacheableNbt;
 use function get_class;
 
 abstract class Spawnable extends Tile{
-	/** @phpstan-var CacheableNbt<\xpocketmc\nbt\tag\CompoundTag>|null */
+	/** @phpstan-var CacheableNbt<\pocketmine
+bt\tag\CompoundTag>|null */
 	private ?CacheableNbt $spawnCompoundCache = null;
 
 	/**
@@ -73,7 +79,8 @@ abstract class Spawnable extends Tile{
 	 * Returns encoded NBT (varint, little-endian) used to spawn this tile to clients. Uses cache where possible,
 	 * populates cache if it is null.
 	 *
-	 * @phpstan-return CacheableNbt<\xpocketmc\nbt\tag\CompoundTag>
+	 * @phpstan-return CacheableNbt<\pocketmine
+bt\tag\CompoundTag>
 	 */
 	final public function getSerializedSpawnCompound() : CacheableNbt{
 		if($this->spawnCompoundCache === null){

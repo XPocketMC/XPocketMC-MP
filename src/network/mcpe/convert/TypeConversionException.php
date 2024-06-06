@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 /**
  * Thrown by TypeConverter if a problem occurred during converting of network types to PM core types (e.g. invalid item

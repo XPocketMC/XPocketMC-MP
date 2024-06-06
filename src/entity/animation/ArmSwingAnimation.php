@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\entity\animation;
 
 use xpocketmc\entity\Living;
-use xpocketmc\network\mcpe\protocol\ActorEventPacket;
-use xpocketmc\network\mcpe\protocol\types\ActorEvent;
+use pocketmine
+etwork\mcpe\protocol\ActorEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ActorEvent;
 
 final class ArmSwingAnimation implements Animation{
 

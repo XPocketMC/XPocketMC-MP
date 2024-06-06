@@ -25,9 +25,12 @@ namespace xpocketmc\world\particle;
 
 use xpocketmc\block\Block;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelEvent;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelEvent;
 
 class BlockBreakParticle implements Particle{
 	//TODO: rename this parameter when we can break BC

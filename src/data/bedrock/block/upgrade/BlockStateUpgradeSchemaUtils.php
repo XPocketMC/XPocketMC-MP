@@ -28,10 +28,14 @@ use xpocketmc\data\bedrock\block\upgrade\model\BlockStateUpgradeSchemaModelBlock
 use xpocketmc\data\bedrock\block\upgrade\model\BlockStateUpgradeSchemaModelFlattenedName;
 use xpocketmc\data\bedrock\block\upgrade\model\BlockStateUpgradeSchemaModelTag;
 use xpocketmc\data\bedrock\block\upgrade\model\BlockStateUpgradeSchemaModelValueRemap;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\tag\Tag;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;
 use Symfony\Component\Filesystem\Path;

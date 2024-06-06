@@ -25,7 +25,7 @@ namespace xpocketmc\thread;
 
 use pmmp\thread\ThreadSafe;
 use pmmp\thread\ThreadSafeArray;
-use xpocketmc\errorhandler\ErrorTypeToStringMap;
+use pocketmine\erorrhandler\ErrorTypeToStringMap;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;
 use function get_class;

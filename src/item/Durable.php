@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\item;
 
 use xpocketmc\item\enchantment\VanillaEnchantments;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use function lcg_value;
 use function min;
 

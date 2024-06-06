@@ -21,10 +21,12 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\inventory\Inventory;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStack;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStack;
 
 final class InventoryManagerEntry{
 	/**

@@ -27,7 +27,8 @@ use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
 use xpocketmc\event\Event;
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\NetworkSession;
 
 /**
  * Called when a player connects with a username or UUID that is already used by another player on the server.

@@ -39,22 +39,38 @@ use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use xpocketmc\math\Vector2;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\DoubleTag;
-use xpocketmc\nbt\tag\FloatTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\AddActorPacket;
-use xpocketmc\network\mcpe\protocol\MoveActorAbsolutePacket;
-use xpocketmc\network\mcpe\protocol\SetActorMotionPacket;
-use xpocketmc\network\mcpe\protocol\types\entity\Attribute as NetworkAttribute;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
-use xpocketmc\network\mcpe\protocol\types\entity\MetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\entity\PropertySyncData;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\DoubleTag;
+use pocketmine
+bt\tag\FloatTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\AddActorPacket;
+use pocketmine
+etwork\mcpe\protocol\MoveActorAbsolutePacket;
+use pocketmine
+etwork\mcpe\protocol\SetActorMotionPacket;
+use pocketmine
+etwork\mcpe\protocol\types\entity\Attribute as NetworkAttribute;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+etwork\mcpe\protocol\types\entity\MetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\PropertySyncData;
 use xpocketmc\player\Player;
 use xpocketmc\Server;
 use xpocketmc\timings\Timings;

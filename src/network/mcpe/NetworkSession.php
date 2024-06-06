@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\entity\effect\EffectInstance;
 use xpocketmc\event\player\PlayerDuplicateLoginEvent;
@@ -33,67 +34,128 @@ use xpocketmc\form\Form;
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\cache\ChunkCache;
-use xpocketmc\network\mcpe\compression\CompressBatchPromise;
-use xpocketmc\network\mcpe\compression\Compressor;
-use xpocketmc\network\mcpe\compression\DecompressionException;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\encryption\DecryptionException;
-use xpocketmc\network\mcpe\encryption\EncryptionContext;
-use xpocketmc\network\mcpe\encryption\PrepareEncryptionTask;
-use xpocketmc\network\mcpe\handler\DeathPacketHandler;
-use xpocketmc\network\mcpe\handler\HandshakePacketHandler;
-use xpocketmc\network\mcpe\handler\InGamePacketHandler;
-use xpocketmc\network\mcpe\handler\LoginPacketHandler;
-use xpocketmc\network\mcpe\handler\PacketHandler;
-use xpocketmc\network\mcpe\handler\PreSpawnPacketHandler;
-use xpocketmc\network\mcpe\handler\ResourcePacksPacketHandler;
-use xpocketmc\network\mcpe\handler\SessionStartPacketHandler;
-use xpocketmc\network\mcpe\handler\SpawnResponsePacketHandler;
-use xpocketmc\network\mcpe\protocol\AvailableCommandsPacket;
-use xpocketmc\network\mcpe\protocol\ChunkRadiusUpdatedPacket;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
-use xpocketmc\network\mcpe\protocol\DisconnectPacket;
-use xpocketmc\network\mcpe\protocol\ModalFormRequestPacket;
-use xpocketmc\network\mcpe\protocol\MovePlayerPacket;
-use xpocketmc\network\mcpe\protocol\NetworkChunkPublisherUpdatePacket;
-use xpocketmc\network\mcpe\protocol\OpenSignPacket;
-use xpocketmc\network\mcpe\protocol\Packet;
-use xpocketmc\network\mcpe\protocol\PacketDecodeException;
-use xpocketmc\network\mcpe\protocol\PacketPool;
-use xpocketmc\network\mcpe\protocol\PlayerListPacket;
-use xpocketmc\network\mcpe\protocol\PlayStatusPacket;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
-use xpocketmc\network\mcpe\protocol\serializer\PacketBatch;
-use xpocketmc\network\mcpe\protocol\serializer\PacketSerializer;
-use xpocketmc\network\mcpe\protocol\ServerboundPacket;
-use xpocketmc\network\mcpe\protocol\ServerToClientHandshakePacket;
-use xpocketmc\network\mcpe\protocol\SetDifficultyPacket;
-use xpocketmc\network\mcpe\protocol\SetPlayerGameTypePacket;
-use xpocketmc\network\mcpe\protocol\SetSpawnPositionPacket;
-use xpocketmc\network\mcpe\protocol\SetTimePacket;
-use xpocketmc\network\mcpe\protocol\SetTitlePacket;
-use xpocketmc\network\mcpe\protocol\TextPacket;
-use xpocketmc\network\mcpe\protocol\ToastRequestPacket;
-use xpocketmc\network\mcpe\protocol\TransferPacket;
-use xpocketmc\network\mcpe\protocol\types\AbilitiesData;
-use xpocketmc\network\mcpe\protocol\types\AbilitiesLayer;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\command\CommandData;
-use xpocketmc\network\mcpe\protocol\types\command\CommandEnum;
-use xpocketmc\network\mcpe\protocol\types\command\CommandOverload;
-use xpocketmc\network\mcpe\protocol\types\command\CommandParameter;
-use xpocketmc\network\mcpe\protocol\types\command\CommandPermissions;
-use xpocketmc\network\mcpe\protocol\types\CompressionAlgorithm;
-use xpocketmc\network\mcpe\protocol\types\DimensionIds;
-use xpocketmc\network\mcpe\protocol\types\PlayerListEntry;
-use xpocketmc\network\mcpe\protocol\types\PlayerPermissions;
-use xpocketmc\network\mcpe\protocol\UpdateAbilitiesPacket;
-use xpocketmc\network\mcpe\protocol\UpdateAdventureSettingsPacket;
-use xpocketmc\network\NetworkSessionManager;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\cache\ChunkCache;
+use pocketmine
+etwork\mcpe\compression\CompressBatchPromise;
+use pocketmine
+etwork\mcpe\compression\Compressor;
+use pocketmine
+etwork\mcpe\compression\DecompressionException;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\encryption\DecryptionException;
+use pocketmine
+etwork\mcpe\encryption\EncryptionContext;
+use pocketmine
+etwork\mcpe\encryption\PrepareEncryptionTask;
+use pocketmine
+etwork\mcpe\handler\DeathPacketHandler;
+use pocketmine
+etwork\mcpe\handler\HandshakePacketHandler;
+use pocketmine
+etwork\mcpe\handler\InGamePacketHandler;
+use pocketmine
+etwork\mcpe\handler\LoginPacketHandler;
+use pocketmine
+etwork\mcpe\handler\PacketHandler;
+use pocketmine
+etwork\mcpe\handler\PreSpawnPacketHandler;
+use pocketmine
+etwork\mcpe\handler\ResourcePacksPacketHandler;
+use pocketmine
+etwork\mcpe\handler\SessionStartPacketHandler;
+use pocketmine
+etwork\mcpe\handler\SpawnResponsePacketHandler;
+use pocketmine
+etwork\mcpe\protocol\AvailableCommandsPacket;
+use pocketmine
+etwork\mcpe\protocol\ChunkRadiusUpdatedPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\DisconnectPacket;
+use pocketmine
+etwork\mcpe\protocol\ModalFormRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\MovePlayerPacket;
+use pocketmine
+etwork\mcpe\protocol\NetworkChunkPublisherUpdatePacket;
+use pocketmine
+etwork\mcpe\protocol\OpenSignPacket;
+use pocketmine
+etwork\mcpe\protocol\Packet;
+use pocketmine
+etwork\mcpe\protocol\PacketDecodeException;
+use pocketmine
+etwork\mcpe\protocol\PacketPool;
+use pocketmine
+etwork\mcpe\protocol\PlayerListPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayStatusPacket;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketBatch;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketSerializer;
+use pocketmine
+etwork\mcpe\protocol\ServerboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ServerToClientHandshakePacket;
+use pocketmine
+etwork\mcpe\protocol\SetDifficultyPacket;
+use pocketmine
+etwork\mcpe\protocol\SetPlayerGameTypePacket;
+use pocketmine
+etwork\mcpe\protocol\SetSpawnPositionPacket;
+use pocketmine
+etwork\mcpe\protocol\SetTimePacket;
+use pocketmine
+etwork\mcpe\protocol\SetTitlePacket;
+use pocketmine
+etwork\mcpe\protocol\TextPacket;
+use pocketmine
+etwork\mcpe\protocol\ToastRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\TransferPacket;
+use pocketmine
+etwork\mcpe\protocol\types\AbilitiesData;
+use pocketmine
+etwork\mcpe\protocol\types\AbilitiesLayer;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandData;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandEnum;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandOverload;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandParameter;
+use pocketmine
+etwork\mcpe\protocol\types\command\CommandPermissions;
+use pocketmine
+etwork\mcpe\protocol\types\CompressionAlgorithm;
+use pocketmine
+etwork\mcpe\protocol\types\DimensionIds;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerListEntry;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerPermissions;
+use pocketmine
+etwork\mcpe\protocol\UpdateAbilitiesPacket;
+use pocketmine
+etwork\mcpe\protocol\UpdateAdventureSettingsPacket;
+use pocketmine
+etwork\NetworkSessionManager;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\permission\DefaultPermissionNames;
 use xpocketmc\permission\DefaultPermissions;
 use xpocketmc\player\GameMode;

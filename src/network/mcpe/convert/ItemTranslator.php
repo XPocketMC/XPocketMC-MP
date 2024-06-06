@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\data\bedrock\item\BlockItemIdMap;
 use xpocketmc\data\bedrock\item\ItemDeserializer;
@@ -30,8 +31,10 @@ use xpocketmc\data\bedrock\item\ItemTypeDeserializeException;
 use xpocketmc\data\bedrock\item\ItemTypeSerializeException;
 use xpocketmc\data\bedrock\item\SavedItemData;
 use xpocketmc\item\Item;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\serializer\ItemTypeDictionary;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\serializer\ItemTypeDictionary;
 use xpocketmc\utils\AssumptionFailedError;
 
 /**

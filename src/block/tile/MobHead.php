@@ -26,8 +26,10 @@ namespace xpocketmc\block\tile;
 use xpocketmc\block\utils\MobHeadType;
 use xpocketmc\data\bedrock\MobHeadTypeIdMap;
 use xpocketmc\data\SavedDataLoadingException;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 /**
  * @deprecated

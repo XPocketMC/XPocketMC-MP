@@ -25,8 +25,10 @@ namespace xpocketmc\world\sound;
 
 use xpocketmc\entity\Entity;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSoundEvent;
 
 /**
  * Played when an entity hits the ground after falling a short distance.

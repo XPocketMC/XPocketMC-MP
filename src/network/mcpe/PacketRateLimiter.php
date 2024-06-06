@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+etwork\PacketHandlingException;
 use function hrtime;
 use function intdiv;
 use function min;

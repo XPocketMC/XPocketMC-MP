@@ -21,11 +21,14 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\event\server\DataPacketSendEvent;
-use xpocketmc\network\mcpe\protocol\serializer\PacketBatch;
-use xpocketmc\network\mcpe\protocol\serializer\PacketSerializer;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketBatch;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketSerializer;
 use xpocketmc\Server;
 use xpocketmc\timings\Timings;
 use xpocketmc\utils\BinaryStream;

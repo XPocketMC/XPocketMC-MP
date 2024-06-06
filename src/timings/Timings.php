@@ -26,8 +26,10 @@ namespace xpocketmc\timings;
 use xpocketmc\block\tile\Tile;
 use xpocketmc\entity\Entity;
 use xpocketmc\event\Event;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
-use xpocketmc\network\mcpe\protocol\ServerboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ServerboundPacket;
 use xpocketmc\player\Player;
 use xpocketmc\scheduler\AsyncTask;
 use xpocketmc\scheduler\TaskHandler;

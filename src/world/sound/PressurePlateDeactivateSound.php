@@ -25,9 +25,12 @@ namespace xpocketmc\world\sound;
 
 use xpocketmc\block\Block;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSoundEvent;
 
 final class PressurePlateDeactivateSound implements Sound{
 

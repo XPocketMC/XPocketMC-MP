@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\compression;
+namespace pocketmine
+etwork\mcpe\compression;
 
 use function array_push;
 

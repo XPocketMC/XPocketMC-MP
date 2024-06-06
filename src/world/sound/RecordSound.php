@@ -25,7 +25,8 @@ namespace xpocketmc\world\sound;
 
 use xpocketmc\block\utils\RecordType;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
 
 class RecordSound implements Sound{
 	public function __construct(private RecordType $recordType){}

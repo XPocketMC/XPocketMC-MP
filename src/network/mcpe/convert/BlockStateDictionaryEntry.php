@@ -21,13 +21,18 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\Tag;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\Tag;
+use pocketmine
+bt\TreeRoot;
 use function count;
 use function ksort;
 use const SORT_STRING;

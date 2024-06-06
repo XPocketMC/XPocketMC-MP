@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\world\sound;
 
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSoundEvent;
 
 class ArmorEquipDiamondSound implements Sound{
 

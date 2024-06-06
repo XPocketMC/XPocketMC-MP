@@ -48,27 +48,48 @@ use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Language;
 use xpocketmc\lang\LanguageNotFoundException;
 use xpocketmc\lang\Translatable;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\compression\CompressBatchPromise;
-use xpocketmc\network\mcpe\compression\CompressBatchTask;
-use xpocketmc\network\mcpe\compression\Compressor;
-use xpocketmc\network\mcpe\compression\ZlibCompressor;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\encryption\EncryptionContext;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\PacketBroadcaster;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
-use xpocketmc\network\mcpe\protocol\types\CompressionAlgorithm;
-use xpocketmc\network\mcpe\raklib\RakLibInterface;
-use xpocketmc\network\mcpe\StandardEntityEventBroadcaster;
-use xpocketmc\network\mcpe\StandardPacketBroadcaster;
-use xpocketmc\network\Network;
-use xpocketmc\network\NetworkInterfaceStartException;
-use xpocketmc\network\query\DedicatedQueryNetworkInterface;
-use xpocketmc\network\query\QueryHandler;
-use xpocketmc\network\query\QueryInfo;
-use xpocketmc\network\upnp\UPnPNetworkInterface;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\compression\CompressBatchPromise;
+use pocketmine
+etwork\mcpe\compression\CompressBatchTask;
+use pocketmine
+etwork\mcpe\compression\Compressor;
+use pocketmine
+etwork\mcpe\compression\ZlibCompressor;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\encryption\EncryptionContext;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\PacketBroadcaster;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\types\CompressionAlgorithm;
+use pocketmine
+etwork\mcpe\raklib\RakLibInterface;
+use pocketmine
+etwork\mcpe\StandardEntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\StandardPacketBroadcaster;
+use pocketmine
+etwork\Network;
+use pocketmine
+etwork\NetworkInterfaceStartException;
+use pocketmine
+etwork\query\DedicatedQueryNetworkInterface;
+use pocketmine
+etwork\query\QueryHandler;
+use pocketmine
+etwork\query\QueryInfo;
+use pocketmine
+etwork\upnp\UPnPNetworkInterface;
 use xpocketmc\permission\BanList;
 use xpocketmc\permission\DefaultPermissions;
 use xpocketmc\player\DatFilePlayerDataProvider;
@@ -89,7 +110,7 @@ use xpocketmc\promise\Promise;
 use xpocketmc\promise\PromiseResolver;
 use xpocketmc\resourcepacks\ResourcePackManager;
 use xpocketmc\scheduler\AsyncPool;
-use xpocketmc\snooze\SleeperHandler;
+use pocketmine\snooze\SleeperHandler;
 use xpocketmc\stats\SendUsageTask;
 use xpocketmc\thread\log\AttachableThreadSafeLogger;
 use xpocketmc\thread\ThreadCrashException;

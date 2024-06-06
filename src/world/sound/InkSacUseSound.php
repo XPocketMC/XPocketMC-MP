@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\world\sound;
 
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelEvent;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelEvent;
 
 final class InkSacUseSound implements Sound{
 

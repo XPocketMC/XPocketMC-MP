@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\query;
+namespace pocketmine
+etwork\query;
 
 use xpocketmc\player\GameMode;
 use xpocketmc\player\Player;

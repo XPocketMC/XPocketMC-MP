@@ -24,10 +24,14 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use pocketmine\math\Facing;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\BlockActorDataPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\CacheableNbt;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\BlockActorDataPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\CacheableNbt;
 use xpocketmc\utils\AssumptionFailedError;
 
 final class Bell extends Spawnable{

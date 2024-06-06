@@ -28,8 +28,10 @@ use xpocketmc\event\entity\EntityDamageByEntityEvent;
 use xpocketmc\event\entity\EntityDamageEvent;
 use xpocketmc\item\VanillaItems;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
 use function atan2;
 use function mt_rand;
 use function sqrt;

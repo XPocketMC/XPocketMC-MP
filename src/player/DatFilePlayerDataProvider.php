@@ -23,11 +23,15 @@ declare(strict_types=1);
 
 namespace xpocketmc\player;
 
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
-use xpocketmc\nbt\BigEndianNbtSerializer;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
+use pocketmine
+bt\BigEndianNbtSerializer;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\TreeRoot;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;
 use Symfony\Component\Filesystem\Path;

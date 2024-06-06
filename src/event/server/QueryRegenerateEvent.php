@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\event\server;
 
-use xpocketmc\network\query\QueryInfo;
+use pocketmine
+etwork\query\QueryInfo;
 
 class QueryRegenerateEvent extends ServerEvent{
 	public function __construct(private QueryInfo $queryInfo){}

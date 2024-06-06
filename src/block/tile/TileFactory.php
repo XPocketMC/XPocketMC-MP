@@ -25,8 +25,10 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\data\SavedDataLoadingException;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\utils\SingletonTrait;
 use xpocketmc\utils\Utils;
 use xpocketmc\world\World;

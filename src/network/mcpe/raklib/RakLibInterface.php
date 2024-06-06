@@ -21,21 +21,33 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\raklib;
+namespace pocketmine
+etwork\mcpe\raklib;
 
 use pmmp\thread\ThreadSafeArray;
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\network\AdvancedNetworkInterface;
-use xpocketmc\network\mcpe\compression\ZlibCompressor;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\PacketBroadcaster;
-use xpocketmc\network\mcpe\protocol\PacketPool;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
-use xpocketmc\network\Network;
-use xpocketmc\network\NetworkInterfaceStartException;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+etwork\AdvancedNetworkInterface;
+use pocketmine
+etwork\mcpe\compression\ZlibCompressor;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\PacketBroadcaster;
+use pocketmine
+etwork\mcpe\protocol\PacketPool;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\Network;
+use pocketmine
+etwork\NetworkInterfaceStartException;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\player\GameMode;
 use xpocketmc\Server;
 use xpocketmc\thread\ThreadCrashException;

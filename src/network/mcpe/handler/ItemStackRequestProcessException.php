@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 /**
  * Thrown when an error occurs during processing of an ItemStackRequest.

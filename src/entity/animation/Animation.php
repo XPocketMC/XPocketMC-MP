@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\entity\animation;
 
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
 
 /**
  * Represents an animation such as an arm swing, or other visual effect done by entities.

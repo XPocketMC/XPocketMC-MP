@@ -25,8 +25,10 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\item\Item;
 use xpocketmc\item\Record;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
 use xpocketmc\world\sound\RecordStopSound;
 
 class Jukebox extends Spawnable{

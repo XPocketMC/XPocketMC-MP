@@ -25,8 +25,10 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\item\Item;
 use xpocketmc\item\WritableBookBase;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
 use function count;
 
 /**

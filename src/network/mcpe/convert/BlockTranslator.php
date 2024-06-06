@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockStateSerializeException;

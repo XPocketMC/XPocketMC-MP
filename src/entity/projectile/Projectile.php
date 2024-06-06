@@ -38,10 +38,14 @@ use xpocketmc\event\entity\ProjectileHitEvent;
 use pocketmine\math\RayTraceResult;
 use pocketmine\math\Vector3;
 use xpocketmc\math\VoxelRayTrace;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\ListTag;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\ListTag;
 use xpocketmc\timings\Timings;
 use function assert;
 use function atan2;

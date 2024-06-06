@@ -21,10 +21,13 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\network\mcpe\protocol\PacketHandlerDefaultImplTrait;
-use xpocketmc\network\mcpe\protocol\PacketHandlerInterface;
+use pocketmine
+etwork\mcpe\protocol\PacketHandlerDefaultImplTrait;
+use pocketmine
+etwork\mcpe\protocol\PacketHandlerInterface;
 
 /**
  * Handlers are attached to sessions to handle packets received from their associated clients. A handler

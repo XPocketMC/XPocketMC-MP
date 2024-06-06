@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\network\mcpe\protocol\ClientToServerHandshakePacket;
+use pocketmine
+etwork\mcpe\protocol\ClientToServerHandshakePacket;
 
 /**
  * Handler responsible for awaiting client response from crypto handshake.

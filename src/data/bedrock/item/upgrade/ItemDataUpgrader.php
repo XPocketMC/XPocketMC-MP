@@ -28,13 +28,20 @@ use xpocketmc\data\bedrock\block\upgrade\BlockDataUpgrader;
 use xpocketmc\data\bedrock\item\SavedItemData;
 use xpocketmc\data\bedrock\item\SavedItemStackData;
 use xpocketmc\data\SavedDataLoadingException;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\ShortTag;
-use xpocketmc\nbt\tag\StringTag;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\ShortTag;
+use pocketmine
+bt\tag\StringTag;
 use xpocketmc\utils\Binary;
 use function assert;
 

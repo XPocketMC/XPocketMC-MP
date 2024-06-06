@@ -31,7 +31,8 @@ use xpocketmc\data\bedrock\block\convert\UnsupportedBlockStateException;
 use xpocketmc\data\bedrock\item\SavedItemData as Data;
 use xpocketmc\item\Durable;
 use xpocketmc\item\Item;
-use xpocketmc\nbt\NbtException;
+use pocketmine
+bt\NbtException;
 use function min;
 
 final class ItemDeserializer{

@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\stats;
 
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 use xpocketmc\player\Player;
 use xpocketmc\scheduler\AsyncTask;
 use xpocketmc\Server;

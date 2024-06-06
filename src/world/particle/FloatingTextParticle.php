@@ -26,18 +26,30 @@ namespace xpocketmc\world\particle;
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\entity\Entity;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\AddActorPacket;
-use xpocketmc\network\mcpe\protocol\RemoveActorPacket;
-use xpocketmc\network\mcpe\protocol\types\entity\ByteMetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
-use xpocketmc\network\mcpe\protocol\types\entity\FloatMetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\entity\IntMetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\entity\LongMetadataProperty;
-use xpocketmc\network\mcpe\protocol\types\entity\PropertySyncData;
-use xpocketmc\network\mcpe\protocol\types\entity\StringMetadataProperty;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\AddActorPacket;
+use pocketmine
+etwork\mcpe\protocol\RemoveActorPacket;
+use pocketmine
+etwork\mcpe\protocol\types\entity\ByteMetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+etwork\mcpe\protocol\types\entity\FloatMetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\IntMetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\LongMetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\PropertySyncData;
+use pocketmine
+etwork\mcpe\protocol\types\entity\StringMetadataProperty;
 
 class FloatingTextParticle implements Particle{
 	//TODO: HACK!

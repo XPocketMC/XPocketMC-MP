@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\block\VanillaBlocks;
 use xpocketmc\crafting\ExactRecipeIngredient;
@@ -33,18 +34,30 @@ use xpocketmc\data\bedrock\item\BlockItemIdMap;
 use xpocketmc\data\bedrock\item\ItemTypeNames;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\serializer\ItemTypeDictionary;
-use xpocketmc\network\mcpe\protocol\serializer\PacketSerializer;
-use xpocketmc\network\mcpe\protocol\types\GameMode as ProtocolGameMode;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStack;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackExtraData;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackExtraDataShield;
-use xpocketmc\network\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\RecipeIngredient as ProtocolRecipeIngredient;
-use xpocketmc\network\mcpe\protocol\types\recipe\StringIdMetaItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\TagItemDescriptor;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\serializer\ItemTypeDictionary;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketSerializer;
+use pocketmine
+etwork\mcpe\protocol\types\GameMode as ProtocolGameMode;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStack;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackExtraData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackExtraDataShield;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\RecipeIngredient as ProtocolRecipeIngredient;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\StringIdMetaItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\TagItemDescriptor;
 use xpocketmc\player\GameMode;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Filesystem;

@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\data\bedrock\EffectIdMap;
 use xpocketmc\entity\Attribute;
@@ -29,20 +30,34 @@ use xpocketmc\entity\effect\EffectInstance;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\Human;
 use xpocketmc\entity\Living;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
-use xpocketmc\network\mcpe\protocol\EmotePacket;
-use xpocketmc\network\mcpe\protocol\MobArmorEquipmentPacket;
-use xpocketmc\network\mcpe\protocol\MobEffectPacket;
-use xpocketmc\network\mcpe\protocol\MobEquipmentPacket;
-use xpocketmc\network\mcpe\protocol\RemoveActorPacket;
-use xpocketmc\network\mcpe\protocol\SetActorDataPacket;
-use xpocketmc\network\mcpe\protocol\TakeItemActorPacket;
-use xpocketmc\network\mcpe\protocol\types\entity\Attribute as NetworkAttribute;
-use xpocketmc\network\mcpe\protocol\types\entity\PropertySyncData;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackWrapper;
-use xpocketmc\network\mcpe\protocol\UpdateAttributesPacket;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\EmotePacket;
+use pocketmine
+etwork\mcpe\protocol\MobArmorEquipmentPacket;
+use pocketmine
+etwork\mcpe\protocol\MobEffectPacket;
+use pocketmine
+etwork\mcpe\protocol\MobEquipmentPacket;
+use pocketmine
+etwork\mcpe\protocol\RemoveActorPacket;
+use pocketmine
+etwork\mcpe\protocol\SetActorDataPacket;
+use pocketmine
+etwork\mcpe\protocol\TakeItemActorPacket;
+use pocketmine
+etwork\mcpe\protocol\types\entity\Attribute as NetworkAttribute;
+use pocketmine
+etwork\mcpe\protocol\types\entity\PropertySyncData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackWrapper;
+use pocketmine
+etwork\mcpe\protocol\UpdateAttributesPacket;
 use function array_map;
 use function count;
 use function ksort;

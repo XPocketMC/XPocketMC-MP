@@ -21,14 +21,16 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\entity\Attribute;
 use xpocketmc\entity\effect\EffectInstance;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\Human;
 use xpocketmc\entity\Living;
-use xpocketmc\network\mcpe\protocol\types\entity\MetadataProperty;
+use pocketmine
+etwork\mcpe\protocol\types\entity\MetadataProperty;
 
 /**
  * This class allows broadcasting entity events to many viewers on the server network.

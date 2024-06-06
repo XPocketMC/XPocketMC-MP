@@ -26,9 +26,12 @@ namespace xpocketmc\block\tile;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\FloatTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\FloatTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
 use xpocketmc\world\World;
 
 /**

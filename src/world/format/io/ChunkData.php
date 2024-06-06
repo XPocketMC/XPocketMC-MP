@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\world\format\io;
 
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\world\format\SubChunk;
 
 final class ChunkData{

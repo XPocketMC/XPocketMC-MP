@@ -25,7 +25,8 @@ namespace xpocketmc\data\bedrock\block\upgrade;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockStateDeserializeException;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 final class BlockDataUpgrader{
 

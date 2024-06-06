@@ -21,12 +21,15 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\entity\InvalidSkinException;
 use xpocketmc\entity\Skin;
-use xpocketmc\network\mcpe\protocol\types\skin\SkinData;
-use xpocketmc\network\mcpe\protocol\types\skin\SkinImage;
+use pocketmine
+etwork\mcpe\protocol\types\skin\SkinData;
+use pocketmine
+etwork\mcpe\protocol\types\skin\SkinImage;
 use function is_array;
 use function is_string;
 use function json_decode;

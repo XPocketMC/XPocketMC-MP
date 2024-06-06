@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\upnp;
+namespace pocketmine
+etwork\upnp;
 
 final class UPnPException extends \RuntimeException{
 

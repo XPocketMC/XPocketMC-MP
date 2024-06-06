@@ -21,13 +21,18 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\cache;
+namespace pocketmine
+etwork\mcpe\cache;
 
 use xpocketmc\data\bedrock\BedrockDataFiles;
-use xpocketmc\network\mcpe\protocol\AvailableActorIdentifiersPacket;
-use xpocketmc\network\mcpe\protocol\BiomeDefinitionListPacket;
-use xpocketmc\network\mcpe\protocol\serializer\NetworkNbtSerializer;
-use xpocketmc\network\mcpe\protocol\types\CacheableNbt;
+use pocketmine
+etwork\mcpe\protocol\AvailableActorIdentifiersPacket;
+use pocketmine
+etwork\mcpe\protocol\BiomeDefinitionListPacket;
+use pocketmine
+etwork\mcpe\protocol\serializer\NetworkNbtSerializer;
+use pocketmine
+etwork\mcpe\protocol\types\CacheableNbt;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\SingletonTrait;
 
@@ -35,7 +40,8 @@ class StaticPacketCache{
 	use SingletonTrait;
 
 	/**
-	 * @phpstan-return CacheableNbt<\xpocketmc\nbt\tag\CompoundTag>
+	 * @phpstan-return CacheableNbt<\pocketmine
+bt\tag\CompoundTag>
 	 */
 	private static function loadCompoundFromFile(string $filePath) : CacheableNbt{
 		return new CacheableNbt((new NetworkNbtSerializer())->read(Filesystem::fileGetContents($filePath))->mustGetCompoundTag());

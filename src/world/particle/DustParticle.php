@@ -25,8 +25,10 @@ namespace xpocketmc\world\particle;
 
 use xpocketmc\color\Color;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\ParticleIds;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ParticleIds;
 
 class DustParticle implements Particle{
 	public function __construct(private Color $color){}

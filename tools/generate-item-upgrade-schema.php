@@ -29,7 +29,7 @@ declare(strict_types=1);
  */
 namespace xpocketmc\tools\generate_item_upgrade_schema;
 
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
 use xpocketmc\utils\Filesystem;
 use Symfony\Component\Filesystem\Path;
 use function count;

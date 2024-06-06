@@ -23,13 +23,20 @@ declare(strict_types=1);
 
 namespace xpocketmc\world\format\io\data;
 
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\TreeRoot;
 use xpocketmc\utils\Binary;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Limits;

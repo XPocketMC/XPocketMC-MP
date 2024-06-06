@@ -24,8 +24,9 @@ declare(strict_types=1);
 namespace xpocketmc {
 
 	use Composer\InstalledVersions;
-	use xpocketmc\errorhandler\ErrorToExceptionHandler;
-	use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+	use pocketmine\erorrhandler\ErrorToExceptionHandler;
+	use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 	use xpocketmc\thread\ThreadManager;
 	use xpocketmc\thread\ThreadSafeClassLoader;
 	use xpocketmc\utils\Filesystem;

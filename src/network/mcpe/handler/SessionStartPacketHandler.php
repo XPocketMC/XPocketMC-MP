@@ -21,12 +21,17 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\NetworkSettingsPacket;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
-use xpocketmc\network\mcpe\protocol\RequestNetworkSettingsPacket;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\NetworkSettingsPacket;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\RequestNetworkSettingsPacket;
 
 final class SessionStartPacketHandler extends PacketHandler{
 

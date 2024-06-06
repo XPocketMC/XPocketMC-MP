@@ -25,8 +25,10 @@ namespace xpocketmc\event\server;
 
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\ServerboundPacket;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\ServerboundPacket;
 
 class DataPacketReceiveEvent extends ServerEvent implements Cancellable{
 	use CancellableTrait;

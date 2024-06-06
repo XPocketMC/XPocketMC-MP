@@ -21,26 +21,45 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\cache\CraftingDataCache;
-use xpocketmc\network\mcpe\cache\StaticPacketCache;
-use xpocketmc\network\mcpe\InventoryManager;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\PlayerAuthInputPacket;
-use xpocketmc\network\mcpe\protocol\RequestChunkRadiusPacket;
-use xpocketmc\network\mcpe\protocol\StartGamePacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\BoolGameRule;
-use xpocketmc\network\mcpe\protocol\types\CacheableNbt;
-use xpocketmc\network\mcpe\protocol\types\DimensionIds;
-use xpocketmc\network\mcpe\protocol\types\Experiments;
-use xpocketmc\network\mcpe\protocol\types\LevelSettings;
-use xpocketmc\network\mcpe\protocol\types\NetworkPermissions;
-use xpocketmc\network\mcpe\protocol\types\PlayerMovementSettings;
-use xpocketmc\network\mcpe\protocol\types\PlayerMovementType;
-use xpocketmc\network\mcpe\protocol\types\SpawnSettings;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\cache\CraftingDataCache;
+use pocketmine
+etwork\mcpe\cache\StaticPacketCache;
+use pocketmine
+etwork\mcpe\InventoryManager;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\PlayerAuthInputPacket;
+use pocketmine
+etwork\mcpe\protocol\RequestChunkRadiusPacket;
+use pocketmine
+etwork\mcpe\protocol\StartGamePacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\BoolGameRule;
+use pocketmine
+etwork\mcpe\protocol\types\CacheableNbt;
+use pocketmine
+etwork\mcpe\protocol\types\DimensionIds;
+use pocketmine
+etwork\mcpe\protocol\types\Experiments;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSettings;
+use pocketmine
+etwork\mcpe\protocol\types\NetworkPermissions;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerMovementSettings;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerMovementType;
+use pocketmine
+etwork\mcpe\protocol\types\SpawnSettings;
 use xpocketmc\player\Player;
 use xpocketmc\Server;
 use xpocketmc\timings\Timings;

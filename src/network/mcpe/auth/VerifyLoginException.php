@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\auth;
+namespace pocketmine
+etwork\mcpe\auth;
 
 use xpocketmc\lang\Translatable;
 

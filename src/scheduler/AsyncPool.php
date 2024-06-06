@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\scheduler;
 
 use pmmp\thread\Thread as NativeThread;
-use xpocketmc\snooze\SleeperHandler;
+use pocketmine\snooze\SleeperHandler;
 use xpocketmc\thread\log\ThreadSafeLogger;
 use xpocketmc\thread\ThreadCrashException;
 use xpocketmc\thread\ThreadSafeClassLoader;

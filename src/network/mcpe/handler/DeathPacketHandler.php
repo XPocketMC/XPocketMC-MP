@@ -21,16 +21,24 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\InventoryManager;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\ContainerClosePacket;
-use xpocketmc\network\mcpe\protocol\DeathInfoPacket;
-use xpocketmc\network\mcpe\protocol\PlayerActionPacket;
-use xpocketmc\network\mcpe\protocol\RespawnPacket;
-use xpocketmc\network\mcpe\protocol\types\PlayerAction;
+use pocketmine
+etwork\mcpe\InventoryManager;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\ContainerClosePacket;
+use pocketmine
+etwork\mcpe\protocol\DeathInfoPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerActionPacket;
+use pocketmine
+etwork\mcpe\protocol\RespawnPacket;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerAction;
 use xpocketmc\player\Player;
 
 class DeathPacketHandler extends PacketHandler{

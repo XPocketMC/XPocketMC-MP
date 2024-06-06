@@ -47,12 +47,18 @@ use xpocketmc\entity\projectile\SplashPotion;
 use xpocketmc\item\Item;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\ShortTag;
-use xpocketmc\nbt\tag\StringTag;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\ShortTag;
+use pocketmine
+bt\tag\StringTag;
 use xpocketmc\utils\SingletonTrait;
 use xpocketmc\utils\Utils;
 use xpocketmc\world\World;

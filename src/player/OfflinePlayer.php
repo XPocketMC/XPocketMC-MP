@@ -23,8 +23,10 @@ declare(strict_types=1);
 
 namespace xpocketmc\player;
 
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\LongTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\LongTag;
 
 class OfflinePlayer implements IPlayer{
 	public function __construct(

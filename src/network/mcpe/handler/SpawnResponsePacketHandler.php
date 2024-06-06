@@ -21,11 +21,15 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
-use xpocketmc\network\mcpe\protocol\PlayerAuthInputPacket;
-use xpocketmc\network\mcpe\protocol\PlayerSkinPacket;
-use xpocketmc\network\mcpe\protocol\SetLocalPlayerAsInitializedPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerAuthInputPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerSkinPacket;
+use pocketmine
+etwork\mcpe\protocol\SetLocalPlayerAsInitializedPacket;
 
 final class SpawnResponsePacketHandler extends PacketHandler{
 	/**

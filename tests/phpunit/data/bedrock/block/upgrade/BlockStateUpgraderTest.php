@@ -25,7 +25,8 @@ namespace xpocketmc\data\bedrock\block\upgrade;
 
 use PHPUnit\Framework\TestCase;
 use xpocketmc\data\bedrock\block\BlockStateData;
-use xpocketmc\nbt\tag\IntTag;
+use pocketmine
+bt\tag\IntTag;
 use const PHP_INT_MAX;
 
 class BlockStateUpgraderTest extends TestCase{

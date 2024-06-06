@@ -24,9 +24,11 @@ declare(strict_types=1);
 namespace xpocketmc\build\generate_item_serializer_ids;
 
 use xpocketmc\data\bedrock\item\BlockItemIdMap;
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
-use xpocketmc\network\mcpe\convert\ItemTypeDictionaryFromDataHelper;
-use xpocketmc\network\mcpe\protocol\serializer\ItemTypeDictionary;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
+use pocketmine
+etwork\mcpe\convert\ItemTypeDictionaryFromDataHelper;
+use pocketmine
+etwork\mcpe\protocol\serializer\ItemTypeDictionary;
 use xpocketmc\utils\Utils;
 use function asort;
 use function count;

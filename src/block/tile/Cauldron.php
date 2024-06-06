@@ -34,8 +34,10 @@ use xpocketmc\item\ItemTypeIds;
 use xpocketmc\item\Potion;
 use xpocketmc\item\SplashPotion;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Binary;
 

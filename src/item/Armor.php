@@ -29,8 +29,10 @@ use xpocketmc\inventory\ArmorInventory;
 use xpocketmc\item\enchantment\ProtectionEnchantment;
 use xpocketmc\item\enchantment\VanillaEnchantments;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
 use xpocketmc\player\Player;
 use xpocketmc\utils\Binary;
 use function lcg_value;

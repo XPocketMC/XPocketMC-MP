@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\world\format\io\region;
 
 use xpocketmc\block\Block;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\world\format\PalettedBlockArray;
 use xpocketmc\world\format\SubChunk;
 

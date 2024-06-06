@@ -23,11 +23,16 @@ declare(strict_types=1);
 
 namespace xpocketmc\entity;
 
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
 
 class Villager extends Living implements Ageable{
 	public const PROFESSION_FARMER = 0;

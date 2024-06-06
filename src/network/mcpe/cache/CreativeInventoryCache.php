@@ -21,12 +21,16 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\cache;
+namespace pocketmine
+etwork\mcpe\cache;
 
 use xpocketmc\inventory\CreativeInventory;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\CreativeContentPacket;
-use xpocketmc\network\mcpe\protocol\types\inventory\CreativeContentEntry;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\CreativeContentPacket;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\CreativeContentEntry;
 use xpocketmc\utils\SingletonTrait;
 use function spl_object_id;
 

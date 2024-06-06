@@ -25,11 +25,16 @@ namespace xpocketmc\entity;
 
 use xpocketmc\data\SavedDataLoadingException;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\DoubleTag;
-use xpocketmc\nbt\tag\FloatTag;
-use xpocketmc\nbt\tag\ListTag;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\DoubleTag;
+use pocketmine
+bt\tag\FloatTag;
+use pocketmine
+bt\tag\ListTag;
 use xpocketmc\world\World;
 use function count;
 use function is_infinite;

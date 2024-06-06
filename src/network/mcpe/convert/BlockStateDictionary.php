@@ -21,13 +21,17 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\convert;
+namespace pocketmine
+etwork\mcpe\convert;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockTypeNames;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\TreeRoot;
-use xpocketmc\network\mcpe\protocol\serializer\NetworkNbtSerializer;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\TreeRoot;
+use pocketmine
+etwork\mcpe\protocol\serializer\NetworkNbtSerializer;
 use xpocketmc\utils\Utils;
 use function array_key_first;
 use function array_map;

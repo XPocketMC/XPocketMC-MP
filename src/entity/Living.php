@@ -46,15 +46,24 @@ use xpocketmc\item\enchantment\VanillaEnchantments;
 use xpocketmc\item\Item;
 use pocketmine\math\Vector3;
 use xpocketmc\math\VoxelRayTrace;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\FloatTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\ShortTag;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\FloatTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\ShortTag;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
 use xpocketmc\player\Player;
 use xpocketmc\timings\Timings;
 use xpocketmc\utils\Binary;

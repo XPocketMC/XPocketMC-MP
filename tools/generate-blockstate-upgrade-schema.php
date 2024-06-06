@@ -29,11 +29,16 @@ use xpocketmc\data\bedrock\block\upgrade\BlockStateUpgradeSchemaBlockRemap;
 use xpocketmc\data\bedrock\block\upgrade\BlockStateUpgradeSchemaFlattenedName;
 use xpocketmc\data\bedrock\block\upgrade\BlockStateUpgradeSchemaUtils;
 use xpocketmc\data\bedrock\block\upgrade\BlockStateUpgradeSchemaValueRemap;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\tag\Tag;
-use xpocketmc\nbt\TreeRoot;
-use xpocketmc\network\mcpe\protocol\serializer\NetworkNbtSerializer;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\tag\Tag;
+use pocketmine
+bt\TreeRoot;
+use pocketmine
+etwork\mcpe\protocol\serializer\NetworkNbtSerializer;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;

@@ -33,8 +33,10 @@ use xpocketmc\inventory\CallbackInventoryListener;
 use xpocketmc\inventory\Inventory;
 use xpocketmc\item\Item;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\ContainerSetDataPacket;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\ContainerSetDataPacket;
 use xpocketmc\player\Player;
 use xpocketmc\world\World;
 use function array_map;

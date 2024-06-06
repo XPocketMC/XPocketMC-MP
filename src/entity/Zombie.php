@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\entity;
 
 use xpocketmc\item\VanillaItems;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
 use function mt_rand;
 
 class Zombie extends Living{

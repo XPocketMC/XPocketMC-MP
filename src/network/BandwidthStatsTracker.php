@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 use function array_fill;
 use function array_sum;

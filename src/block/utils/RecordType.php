@@ -25,7 +25,8 @@ namespace xpocketmc\block\utils;
 
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSoundEvent;
 use xpocketmc\utils\LegacyEnumShimTrait;
 use function spl_object_id;
 

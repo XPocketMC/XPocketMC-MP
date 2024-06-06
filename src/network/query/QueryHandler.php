@@ -25,10 +25,13 @@ declare(strict_types=1);
  * Implementation of the UT3 Query Protocol (GameSpot)
  * Source: http://wiki.unrealadmin.org/UT3_query_protocol
  */
-namespace xpocketmc\network\query;
+namespace pocketmine
+etwork\query;
 
-use xpocketmc\network\AdvancedNetworkInterface;
-use xpocketmc\network\RawPacketHandler;
+use pocketmine
+etwork\AdvancedNetworkInterface;
+use pocketmine
+etwork\RawPacketHandler;
 use xpocketmc\Server;
 use xpocketmc\utils\Binary;
 use xpocketmc\utils\BinaryDataException;

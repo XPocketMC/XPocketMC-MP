@@ -25,8 +25,10 @@ namespace xpocketmc\world\sound;
 
 use xpocketmc\data\bedrock\NoteInstrumentIdMap;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelSoundEvent;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelSoundEvent;
 
 class NoteSound implements Sound{
 	public function __construct(

@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\encryption;
+namespace pocketmine
+etwork\mcpe\encryption;
 
 use Crypto\Cipher;
 use xpocketmc\utils\Binary;

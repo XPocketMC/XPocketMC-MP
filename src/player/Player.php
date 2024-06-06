@@ -102,17 +102,28 @@ use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Language;
 use xpocketmc\lang\Translatable;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\AnimatePacket;
-use xpocketmc\network\mcpe\protocol\MovePlayerPacket;
-use xpocketmc\network\mcpe\protocol\SetActorMotionPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
-use xpocketmc\network\mcpe\protocol\types\entity\PlayerMetadataFlags;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\AnimatePacket;
+use pocketmine
+etwork\mcpe\protocol\MovePlayerPacket;
+use pocketmine
+etwork\mcpe\protocol\SetActorMotionPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+etwork\mcpe\protocol\types\entity\PlayerMetadataFlags;
 use xpocketmc\permission\DefaultPermissionNames;
 use xpocketmc\permission\DefaultPermissions;
 use xpocketmc\permission\PermissibleBase;

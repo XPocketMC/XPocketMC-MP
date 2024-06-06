@@ -21,22 +21,33 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\entity\InvalidSkinException;
 use xpocketmc\event\player\PlayerPreLoginEvent;
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\auth\ProcessLoginTask;
-use xpocketmc\network\mcpe\JwtException;
-use xpocketmc\network\mcpe\JwtUtils;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\LoginPacket;
-use xpocketmc\network\mcpe\protocol\types\login\AuthenticationData;
-use xpocketmc\network\mcpe\protocol\types\login\ClientData;
-use xpocketmc\network\mcpe\protocol\types\login\ClientDataToSkinDataHelper;
-use xpocketmc\network\mcpe\protocol\types\login\JwtChain;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+etwork\mcpe\auth\ProcessLoginTask;
+use pocketmine
+etwork\mcpe\JwtException;
+use pocketmine
+etwork\mcpe\JwtUtils;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\LoginPacket;
+use pocketmine
+etwork\mcpe\protocol\types\login\AuthenticationData;
+use pocketmine
+etwork\mcpe\protocol\types\login\ClientData;
+use pocketmine
+etwork\mcpe\protocol\types\login\ClientDataToSkinDataHelper;
+use pocketmine
+etwork\mcpe\protocol\types\login\JwtChain;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\player\Player;
 use xpocketmc\player\PlayerInfo;
 use xpocketmc\player\XboxLivePlayerInfo;

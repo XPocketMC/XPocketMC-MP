@@ -26,7 +26,7 @@ namespace xpocketmc\thread;
 use pmmp\thread\Thread as NativeThread;
 use pmmp\thread\ThreadSafeArray;
 use xpocketmc\crash\CrashDump;
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
 use xpocketmc\Server;
 use function error_get_last;
 use function error_reporting;

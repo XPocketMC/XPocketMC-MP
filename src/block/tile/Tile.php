@@ -30,8 +30,10 @@ namespace xpocketmc\block\tile;
 use xpocketmc\block\Block;
 use xpocketmc\item\Item;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\timings\Timings;
 use xpocketmc\timings\TimingsHandler;
 use xpocketmc\VersionInfo;

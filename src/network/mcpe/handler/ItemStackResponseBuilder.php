@@ -21,15 +21,21 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\inventory\Inventory;
 use xpocketmc\item\Durable;
-use xpocketmc\network\mcpe\InventoryManager;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerUIIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackresponse\ItemStackResponseContainerInfo;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackresponse\ItemStackResponseSlotInfo;
+use pocketmine
+etwork\mcpe\InventoryManager;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerUIIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackresponse\ItemStackResponseContainerInfo;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackresponse\ItemStackResponseSlotInfo;
 use xpocketmc\utils\AssumptionFailedError;
 
 final class ItemStackResponseBuilder{

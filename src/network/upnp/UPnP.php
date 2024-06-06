@@ -53,7 +53,8 @@ declare(strict_types=1);
 /**
  * UPnP port forwarding support.
  */
-namespace xpocketmc\network\upnp;
+namespace pocketmine
+etwork\upnp;
 
 use xpocketmc\utils\Internet;
 use xpocketmc\utils\Utils;

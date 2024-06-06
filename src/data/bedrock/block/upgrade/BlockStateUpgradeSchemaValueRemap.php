@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\data\bedrock\block\upgrade;
 
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\tag\Tag;
 
 final class BlockStateUpgradeSchemaValueRemap{
 

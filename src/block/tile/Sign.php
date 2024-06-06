@@ -26,10 +26,14 @@ namespace xpocketmc\block\tile;
 use xpocketmc\block\utils\SignText;
 use xpocketmc\color\Color;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
 use xpocketmc\utils\Binary;
 use xpocketmc\world\World;
 use function array_pad;

@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 interface RawPacketHandler{
 

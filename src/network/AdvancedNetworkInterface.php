@@ -24,7 +24,8 @@ declare(strict_types=1);
 /**
  * Network-related classes
  */
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 /**
  * Advanced network interfaces have some additional capabilities, such as being able to ban addresses and process raw

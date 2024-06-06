@@ -21,16 +21,22 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\serializer;
+namespace pocketmine
+etwork\mcpe\serializer;
 
 use xpocketmc\block\tile\Spawnable;
 use xpocketmc\data\bedrock\BiomeIds;
 use xpocketmc\data\bedrock\LegacyBiomeIdToStringIdMap;
-use xpocketmc\nbt\TreeRoot;
-use xpocketmc\network\mcpe\convert\BlockTranslator;
-use xpocketmc\network\mcpe\protocol\serializer\NetworkNbtSerializer;
-use xpocketmc\network\mcpe\protocol\serializer\PacketSerializer;
-use xpocketmc\network\mcpe\protocol\types\DimensionIds;
+use pocketmine
+bt\TreeRoot;
+use pocketmine
+etwork\mcpe\convert\BlockTranslator;
+use pocketmine
+etwork\mcpe\protocol\serializer\NetworkNbtSerializer;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketSerializer;
+use pocketmine
+etwork\mcpe\protocol\types\DimensionIds;
 use xpocketmc\utils\Binary;
 use xpocketmc\utils\BinaryStream;
 use xpocketmc\world\format\Chunk;

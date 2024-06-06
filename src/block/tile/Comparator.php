@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\block\tile;
 
 use xpocketmc\block\RedstoneComparator;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 /**
  * @deprecated

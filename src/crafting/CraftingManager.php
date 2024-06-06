@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\crafting;
 
 use xpocketmc\item\Item;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\TreeRoot;
 use xpocketmc\utils\BinaryStream;
 use xpocketmc\utils\DestructorCallbackTrait;
 use xpocketmc\utils\ObjectSet;

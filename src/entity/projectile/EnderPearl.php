@@ -25,7 +25,8 @@ namespace xpocketmc\entity\projectile;
 
 use xpocketmc\event\entity\EntityDamageEvent;
 use xpocketmc\event\entity\ProjectileHitEvent;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
 use xpocketmc\world\particle\EndermanTeleportParticle;
 use xpocketmc\world\sound\EndermanTeleportSound;
 

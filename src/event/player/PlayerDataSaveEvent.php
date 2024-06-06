@@ -26,7 +26,8 @@ namespace xpocketmc\event\player;
 use xpocketmc\event\Cancellable;
 use xpocketmc\event\CancellableTrait;
 use xpocketmc\event\Event;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\player\Player;
 
 /**

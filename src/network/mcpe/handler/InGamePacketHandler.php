@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\block\BaseSign;
 use xpocketmc\block\Lectern;
@@ -42,64 +43,122 @@ use xpocketmc\item\WritableBookPage;
 use xpocketmc\item\WrittenBook;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\InventoryManager;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\ActorEventPacket;
-use xpocketmc\network\mcpe\protocol\ActorPickRequestPacket;
-use xpocketmc\network\mcpe\protocol\AnimatePacket;
-use xpocketmc\network\mcpe\protocol\BlockActorDataPacket;
-use xpocketmc\network\mcpe\protocol\BlockPickRequestPacket;
-use xpocketmc\network\mcpe\protocol\BookEditPacket;
-use xpocketmc\network\mcpe\protocol\BossEventPacket;
-use xpocketmc\network\mcpe\protocol\CommandBlockUpdatePacket;
-use xpocketmc\network\mcpe\protocol\CommandRequestPacket;
-use xpocketmc\network\mcpe\protocol\ContainerClosePacket;
-use xpocketmc\network\mcpe\protocol\EmotePacket;
-use xpocketmc\network\mcpe\protocol\InteractPacket;
-use xpocketmc\network\mcpe\protocol\InventoryTransactionPacket;
-use xpocketmc\network\mcpe\protocol\ItemStackRequestPacket;
-use xpocketmc\network\mcpe\protocol\ItemStackResponsePacket;
-use xpocketmc\network\mcpe\protocol\LabTablePacket;
-use xpocketmc\network\mcpe\protocol\LecternUpdatePacket;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacket;
-use xpocketmc\network\mcpe\protocol\LevelSoundEventPacketV1;
-use xpocketmc\network\mcpe\protocol\MapInfoRequestPacket;
-use xpocketmc\network\mcpe\protocol\MobArmorEquipmentPacket;
-use xpocketmc\network\mcpe\protocol\MobEquipmentPacket;
-use xpocketmc\network\mcpe\protocol\ModalFormResponsePacket;
-use xpocketmc\network\mcpe\protocol\MovePlayerPacket;
-use xpocketmc\network\mcpe\protocol\NetworkStackLatencyPacket;
-use xpocketmc\network\mcpe\protocol\PlayerActionPacket;
-use xpocketmc\network\mcpe\protocol\PlayerAuthInputPacket;
-use xpocketmc\network\mcpe\protocol\PlayerHotbarPacket;
-use xpocketmc\network\mcpe\protocol\PlayerInputPacket;
-use xpocketmc\network\mcpe\protocol\PlayerSkinPacket;
-use xpocketmc\network\mcpe\protocol\RequestChunkRadiusPacket;
-use xpocketmc\network\mcpe\protocol\ServerSettingsRequestPacket;
-use xpocketmc\network\mcpe\protocol\SetActorMotionPacket;
-use xpocketmc\network\mcpe\protocol\SetPlayerGameTypePacket;
-use xpocketmc\network\mcpe\protocol\ShowCreditsPacket;
-use xpocketmc\network\mcpe\protocol\SpawnExperienceOrbPacket;
-use xpocketmc\network\mcpe\protocol\SubClientLoginPacket;
-use xpocketmc\network\mcpe\protocol\TextPacket;
-use xpocketmc\network\mcpe\protocol\types\ActorEvent;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\MismatchTransactionData;
-use xpocketmc\network\mcpe\protocol\types\inventory\NetworkInventoryAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\NormalTransactionData;
-use xpocketmc\network\mcpe\protocol\types\inventory\ReleaseItemTransactionData;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackrequest\ItemStackRequest;
-use xpocketmc\network\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
-use xpocketmc\network\mcpe\protocol\types\inventory\UseItemOnEntityTransactionData;
-use xpocketmc\network\mcpe\protocol\types\inventory\UseItemTransactionData;
-use xpocketmc\network\mcpe\protocol\types\PlayerAction;
-use xpocketmc\network\mcpe\protocol\types\PlayerAuthInputFlags;
-use xpocketmc\network\mcpe\protocol\types\PlayerBlockActionStopBreak;
-use xpocketmc\network\mcpe\protocol\types\PlayerBlockActionWithBlockInfo;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\InventoryManager;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\ActorEventPacket;
+use pocketmine
+etwork\mcpe\protocol\ActorPickRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\AnimatePacket;
+use pocketmine
+etwork\mcpe\protocol\BlockActorDataPacket;
+use pocketmine
+etwork\mcpe\protocol\BlockPickRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\BookEditPacket;
+use pocketmine
+etwork\mcpe\protocol\BossEventPacket;
+use pocketmine
+etwork\mcpe\protocol\CommandBlockUpdatePacket;
+use pocketmine
+etwork\mcpe\protocol\CommandRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\ContainerClosePacket;
+use pocketmine
+etwork\mcpe\protocol\EmotePacket;
+use pocketmine
+etwork\mcpe\protocol\InteractPacket;
+use pocketmine
+etwork\mcpe\protocol\InventoryTransactionPacket;
+use pocketmine
+etwork\mcpe\protocol\ItemStackRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\ItemStackResponsePacket;
+use pocketmine
+etwork\mcpe\protocol\LabTablePacket;
+use pocketmine
+etwork\mcpe\protocol\LecternUpdatePacket;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacket;
+use pocketmine
+etwork\mcpe\protocol\LevelSoundEventPacketV1;
+use pocketmine
+etwork\mcpe\protocol\MapInfoRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\MobArmorEquipmentPacket;
+use pocketmine
+etwork\mcpe\protocol\MobEquipmentPacket;
+use pocketmine
+etwork\mcpe\protocol\ModalFormResponsePacket;
+use pocketmine
+etwork\mcpe\protocol\MovePlayerPacket;
+use pocketmine
+etwork\mcpe\protocol\NetworkStackLatencyPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerActionPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerAuthInputPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerHotbarPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerInputPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerSkinPacket;
+use pocketmine
+etwork\mcpe\protocol\RequestChunkRadiusPacket;
+use pocketmine
+etwork\mcpe\protocol\ServerSettingsRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\SetActorMotionPacket;
+use pocketmine
+etwork\mcpe\protocol\SetPlayerGameTypePacket;
+use pocketmine
+etwork\mcpe\protocol\ShowCreditsPacket;
+use pocketmine
+etwork\mcpe\protocol\SpawnExperienceOrbPacket;
+use pocketmine
+etwork\mcpe\protocol\SubClientLoginPacket;
+use pocketmine
+etwork\mcpe\protocol\TextPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ActorEvent;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\MismatchTransactionData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\NetworkInventoryAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\NormalTransactionData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ReleaseItemTransactionData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackrequest\ItemStackRequest;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\stackresponse\ItemStackResponse;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\UseItemOnEntityTransactionData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\UseItemTransactionData;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerAction;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerAuthInputFlags;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerBlockActionStopBreak;
+use pocketmine
+etwork\mcpe\protocol\types\PlayerBlockActionWithBlockInfo;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\player\Player;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Limits;

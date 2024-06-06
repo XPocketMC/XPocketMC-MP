@@ -25,12 +25,18 @@ namespace xpocketmc\world\format\io\region;
 
 use xpocketmc\block\Block;
 use xpocketmc\data\bedrock\BiomeIds;
-use xpocketmc\nbt\BigEndianNbtSerializer;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\tag\ByteArrayTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntArrayTag;
-use xpocketmc\nbt\tag\ListTag;
+use pocketmine
+bt\BigEndianNbtSerializer;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\tag\ByteArrayTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntArrayTag;
+use pocketmine
+bt\tag\ListTag;
 use xpocketmc\world\format\Chunk;
 use xpocketmc\world\format\io\ChunkData;
 use xpocketmc\world\format\io\ChunkUtils;

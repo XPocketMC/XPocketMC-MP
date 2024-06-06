@@ -33,12 +33,18 @@ use xpocketmc\event\entity\ItemMergeEvent;
 use xpocketmc\event\entity\ItemSpawnEvent;
 use xpocketmc\item\Item;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\EntityEventBroadcaster;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\AddItemActorPacket;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackWrapper;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\EntityEventBroadcaster;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\AddItemActorPacket;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackWrapper;
 use xpocketmc\player\Player;
 use xpocketmc\timings\Timings;
 use function max;

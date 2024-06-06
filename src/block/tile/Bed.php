@@ -25,8 +25,10 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\block\utils\DyeColor;
 use xpocketmc\data\bedrock\DyeColorIdMap;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 class Bed extends Spawnable{
 	public const TAG_COLOR = "color";

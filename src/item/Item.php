@@ -39,13 +39,20 @@ use xpocketmc\entity\Entity;
 use xpocketmc\entity\Living;
 use xpocketmc\item\enchantment\EnchantmentInstance;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\TreeRoot;
 use xpocketmc\player\Player;
 use xpocketmc\utils\Utils;
 use xpocketmc\world\format\io\GlobalItemDataHandlers;

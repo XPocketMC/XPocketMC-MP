@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 /**
  * Thrown when an error occurs during packet handling - for example, a message contained invalid options, packet shorter

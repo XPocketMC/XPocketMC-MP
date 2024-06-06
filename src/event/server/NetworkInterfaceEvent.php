@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\event\server;
 
-use xpocketmc\network\NetworkInterface;
+use pocketmine
+etwork\NetworkInterface;
 
 class NetworkInterfaceEvent extends ServerEvent{
 	public function __construct(

@@ -21,10 +21,12 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\NetworkSession;
 use function count;
 use function spl_object_id;
 

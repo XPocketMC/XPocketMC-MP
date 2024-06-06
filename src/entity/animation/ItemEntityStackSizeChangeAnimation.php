@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\entity\animation;
 
 use xpocketmc\entity\object\ItemEntity;
-use xpocketmc\network\mcpe\protocol\ActorEventPacket;
-use xpocketmc\network\mcpe\protocol\types\ActorEvent;
+use pocketmine
+etwork\mcpe\protocol\ActorEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ActorEvent;
 
 final class ItemEntityStackSizeChangeAnimation implements Animation{
 

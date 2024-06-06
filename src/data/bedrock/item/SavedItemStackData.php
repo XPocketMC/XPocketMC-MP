@@ -23,9 +23,12 @@ declare(strict_types=1);
 
 namespace xpocketmc\data\bedrock\item;
 
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\tag\StringTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\tag\StringTag;
 use xpocketmc\utils\Binary;
 use function array_map;
 use function count;

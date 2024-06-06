@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 use xpocketmc\VersionInfo;
 
 require dirname(__DIR__) . '/vendor/autoload.php';

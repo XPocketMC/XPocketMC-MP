@@ -23,11 +23,16 @@ declare(strict_types=1);
 
 namespace xpocketmc\tools\generate_block_palette_spec;
 
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\convert\BlockStateDictionary;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\convert\BlockStateDictionary;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;

@@ -36,9 +36,10 @@ use xpocketmc\data\bedrock\item\ItemTypeDeserializeException;
 use xpocketmc\data\bedrock\item\SavedItemData;
 use xpocketmc\data\bedrock\item\SavedItemStackData;
 use xpocketmc\data\SavedDataLoadingException;
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
 use xpocketmc\item\Item;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
+use pocketmine
+bt\LittleEndianNbtSerializer;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;
 use xpocketmc\world\format\io\GlobalItemDataHandlers;

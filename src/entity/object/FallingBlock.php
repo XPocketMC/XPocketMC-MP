@@ -36,13 +36,20 @@ use xpocketmc\event\entity\EntityBlockChangeEvent;
 use xpocketmc\event\entity\EntityDamageByEntityEvent;
 use xpocketmc\event\entity\EntityDamageEvent;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
 use xpocketmc\world\format\io\GlobalBlockStateHandlers;
 use xpocketmc\world\sound\BlockBreakSound;
 use function abs;

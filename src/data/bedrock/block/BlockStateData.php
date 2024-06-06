@@ -23,9 +23,12 @@ declare(strict_types=1);
 
 namespace xpocketmc\data\bedrock\block;
 
-use xpocketmc\nbt\NbtException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\NbtException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\Tag;
 use xpocketmc\utils\Utils;
 use xpocketmc\VersionInfo;
 use function array_keys;

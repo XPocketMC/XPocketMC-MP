@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\entity;
 
 use xpocketmc\event\entity\EntityDamageEvent;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
 
 abstract class WaterAnimal extends Living implements Ageable{
 	protected bool $baby = false;

@@ -29,9 +29,12 @@ use xpocketmc\block\utils\DyeColor;
 use xpocketmc\data\bedrock\BannerPatternTypeIdMap;
 use xpocketmc\data\bedrock\DyeColorIdMap;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
 use function count;
 
 class Banner extends ItemBlockWallOrFloor{

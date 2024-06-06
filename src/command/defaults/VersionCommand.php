@@ -25,7 +25,8 @@ namespace xpocketmc\command\defaults;
 
 use xpocketmc\command\CommandSender;
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 use xpocketmc\permission\DefaultPermissionNames;
 use xpocketmc\plugin\Plugin;
 use xpocketmc\utils\TextFormat;

@@ -23,7 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc\block\tile;
 
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 
 /**
  * This exists to force the client to update the spore blossom every tick, which is necessary for it to generate

@@ -21,13 +21,18 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\cache;
+namespace pocketmine
+etwork\mcpe\cache;
 
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\ChunkRequestTask;
-use xpocketmc\network\mcpe\compression\CompressBatchPromise;
-use xpocketmc\network\mcpe\compression\Compressor;
-use xpocketmc\network\mcpe\protocol\types\DimensionIds;
+use pocketmine
+etwork\mcpe\ChunkRequestTask;
+use pocketmine
+etwork\mcpe\compression\CompressBatchPromise;
+use pocketmine
+etwork\mcpe\compression\Compressor;
+use pocketmine
+etwork\mcpe\protocol\types\DimensionIds;
 use xpocketmc\world\ChunkListener;
 use xpocketmc\world\ChunkListenerNoOpTrait;
 use xpocketmc\world\format\Chunk;

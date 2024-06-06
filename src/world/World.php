@@ -66,14 +66,22 @@ use xpocketmc\lang\KnownTranslationFactory;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\NetworkBroadcastUtils;
-use xpocketmc\network\mcpe\protocol\BlockActorDataPacket;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\UpdateBlockPacket;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\NetworkBroadcastUtils;
+use pocketmine
+etwork\mcpe\protocol\BlockActorDataPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\UpdateBlockPacket;
 use xpocketmc\player\Player;
 use xpocketmc\promise\Promise;
 use xpocketmc\promise\PromiseResolver;

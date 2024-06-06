@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\raklib;
+namespace pocketmine
+etwork\mcpe\raklib;
 
-use xpocketmc\network\mcpe\PacketSender;
+use pocketmine
+etwork\mcpe\PacketSender;
 
 class RakLibPacketSender implements PacketSender{
 	private bool $closed = false;

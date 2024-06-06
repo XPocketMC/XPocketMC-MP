@@ -34,10 +34,14 @@ use xpocketmc\data\bedrock\block\BlockStateSerializeException;
 use xpocketmc\data\bedrock\block\BlockStateStringValues as StringValues;
 use xpocketmc\math\Axis;
 use pocketmine\math\Facing;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\tag\Tag;
 use xpocketmc\utils\AssumptionFailedError;
 
 final class BlockStateWriter{

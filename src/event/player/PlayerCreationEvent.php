@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\event\player;
 
 use xpocketmc\event\Event;
-use xpocketmc\network\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\NetworkSession;
 use xpocketmc\player\Player;
 use xpocketmc\utils\Utils;
 use function is_a;

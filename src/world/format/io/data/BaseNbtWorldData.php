@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\world\format\io\data;
 
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
 use xpocketmc\world\format\io\exception\CorruptedWorldException;
 use xpocketmc\world\format\io\exception\UnsupportedWorldFormatException;
 use xpocketmc\world\format\io\WorldData;

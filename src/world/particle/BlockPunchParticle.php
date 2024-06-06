@@ -25,9 +25,12 @@ namespace xpocketmc\world\particle;
 
 use xpocketmc\block\Block;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\LevelEvent;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\LevelEvent;
 
 /**
  * This particle appears when a player is attacking a block face in survival mode attempting to break it.

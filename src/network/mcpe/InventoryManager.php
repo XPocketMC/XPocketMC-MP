@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
 use xpocketmc\block\inventory\AnvilInventory;
 use xpocketmc\block\inventory\BlockInventory;
@@ -41,25 +42,44 @@ use xpocketmc\inventory\transaction\action\SlotChangeAction;
 use xpocketmc\inventory\transaction\InventoryTransaction;
 use xpocketmc\item\enchantment\EnchantingOption;
 use xpocketmc\item\enchantment\EnchantmentInstance;
-use xpocketmc\network\mcpe\cache\CreativeInventoryCache;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
-use xpocketmc\network\mcpe\protocol\ContainerClosePacket;
-use xpocketmc\network\mcpe\protocol\ContainerOpenPacket;
-use xpocketmc\network\mcpe\protocol\ContainerSetDataPacket;
-use xpocketmc\network\mcpe\protocol\InventoryContentPacket;
-use xpocketmc\network\mcpe\protocol\InventorySlotPacket;
-use xpocketmc\network\mcpe\protocol\MobEquipmentPacket;
-use xpocketmc\network\mcpe\protocol\PlayerEnchantOptionsPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
-use xpocketmc\network\mcpe\protocol\types\Enchant;
-use xpocketmc\network\mcpe\protocol\types\EnchantOption as ProtocolEnchantOption;
-use xpocketmc\network\mcpe\protocol\types\inventory\ContainerIds;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStack;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackWrapper;
-use xpocketmc\network\mcpe\protocol\types\inventory\NetworkInventoryAction;
-use xpocketmc\network\mcpe\protocol\types\inventory\UIInventorySlotOffset;
-use xpocketmc\network\mcpe\protocol\types\inventory\WindowTypes;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+etwork\mcpe\cache\CreativeInventoryCache;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ContainerClosePacket;
+use pocketmine
+etwork\mcpe\protocol\ContainerOpenPacket;
+use pocketmine
+etwork\mcpe\protocol\ContainerSetDataPacket;
+use pocketmine
+etwork\mcpe\protocol\InventoryContentPacket;
+use pocketmine
+etwork\mcpe\protocol\InventorySlotPacket;
+use pocketmine
+etwork\mcpe\protocol\MobEquipmentPacket;
+use pocketmine
+etwork\mcpe\protocol\PlayerEnchantOptionsPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\types\Enchant;
+use pocketmine
+etwork\mcpe\protocol\types\EnchantOption as ProtocolEnchantOption;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ContainerIds;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStack;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackWrapper;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\NetworkInventoryAction;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\UIInventorySlotOffset;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\WindowTypes;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\player\Player;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\ObjectSet;

@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\data\bedrock\block\upgrade;
 
 use xpocketmc\data\bedrock\block\upgrade\BlockStateUpgradeSchemaValueRemap as ValueRemap;
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\tag\Tag;
 use function count;
 
 final class BlockStateUpgradeSchema{

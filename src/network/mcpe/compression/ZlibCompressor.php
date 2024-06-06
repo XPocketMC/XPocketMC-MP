@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\compression;
+namespace pocketmine
+etwork\mcpe\compression;
 
-use xpocketmc\network\mcpe\protocol\types\CompressionAlgorithm;
+use pocketmine
+etwork\mcpe\protocol\types\CompressionAlgorithm;
 use xpocketmc\utils\SingletonTrait;
 use xpocketmc\utils\Utils;
 use function function_exists;

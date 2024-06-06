@@ -46,7 +46,8 @@ use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\RayTraceResult;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\player\Player;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Binary;

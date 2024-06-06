@@ -27,7 +27,8 @@ use xpocketmc\block\inventory\ShulkerBoxInventory;
 use xpocketmc\item\Item;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\world\World;
 
 class ShulkerBox extends Spawnable implements Container, Nameable{

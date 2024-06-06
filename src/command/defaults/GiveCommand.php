@@ -30,9 +30,12 @@ use xpocketmc\item\LegacyStringToItemParser;
 use xpocketmc\item\LegacyStringToItemParserException;
 use xpocketmc\item\StringToItemParser;
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\nbt\JsonNbtParser;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\NbtException;
+use pocketmine
+bt\JsonNbtParser;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\NbtException;
 use xpocketmc\permission\DefaultPermissionNames;
 use xpocketmc\utils\TextFormat;
 use function array_slice;

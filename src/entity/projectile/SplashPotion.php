@@ -37,11 +37,16 @@ use xpocketmc\event\entity\ProjectileHitEntityEvent;
 use xpocketmc\event\entity\ProjectileHitEvent;
 use xpocketmc\item\Potion;
 use xpocketmc\item\PotionType;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataCollection;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataFlags;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityMetadataProperties;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataCollection;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataFlags;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityMetadataProperties;
 use xpocketmc\world\particle\PotionSplashParticle;
 use xpocketmc\world\sound\PotionSplashSound;
 use function count;

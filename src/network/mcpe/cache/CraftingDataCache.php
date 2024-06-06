@@ -21,23 +21,34 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\cache;
+namespace pocketmine
+etwork\mcpe\cache;
 
 use xpocketmc\crafting\CraftingManager;
 use xpocketmc\crafting\FurnaceType;
 use xpocketmc\crafting\ShapedRecipe;
 use xpocketmc\crafting\ShapelessRecipe;
 use xpocketmc\crafting\ShapelessRecipeType;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\CraftingDataPacket;
-use xpocketmc\network\mcpe\protocol\types\recipe\CraftingRecipeBlockName;
-use xpocketmc\network\mcpe\protocol\types\recipe\FurnaceRecipe as ProtocolFurnaceRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\FurnaceRecipeBlockName;
-use xpocketmc\network\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\PotionContainerChangeRecipe as ProtocolPotionContainerChangeRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\PotionTypeRecipe as ProtocolPotionTypeRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\ShapedRecipe as ProtocolShapedRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\ShapelessRecipe as ProtocolShapelessRecipe;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\CraftingDataPacket;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\CraftingRecipeBlockName;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\FurnaceRecipe as ProtocolFurnaceRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\FurnaceRecipeBlockName;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\PotionContainerChangeRecipe as ProtocolPotionContainerChangeRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\PotionTypeRecipe as ProtocolPotionTypeRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\ShapedRecipe as ProtocolShapedRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\ShapelessRecipe as ProtocolShapelessRecipe;
 use xpocketmc\timings\Timings;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Binary;

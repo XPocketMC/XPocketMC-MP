@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\entity\animation;
 
 use xpocketmc\entity\Living;
-use xpocketmc\network\mcpe\protocol\AnimatePacket;
+use pocketmine
+etwork\mcpe\protocol\AnimatePacket;
 
 final class CriticalHitAnimation implements Animation{
 

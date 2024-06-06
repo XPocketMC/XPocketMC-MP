@@ -25,7 +25,8 @@ namespace xpocketmc\block\tile;
 
 use xpocketmc\block\inventory\BarrelInventory;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
+use pocketmine
+bt\tag\CompoundTag;
 use xpocketmc\world\World;
 
 class Barrel extends Spawnable implements Container, Nameable{

@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\block\inventory;
 
 use xpocketmc\inventory\SimpleInventory;
-use xpocketmc\network\mcpe\protocol\BlockEventPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\BlockEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
 use xpocketmc\world\Position;
 use xpocketmc\world\sound\ChestCloseSound;
 use xpocketmc\world\sound\ChestOpenSound;

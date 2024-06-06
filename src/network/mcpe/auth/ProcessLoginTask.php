@@ -21,14 +21,19 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\auth;
+namespace pocketmine
+etwork\mcpe\auth;
 
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\JwtException;
-use xpocketmc\network\mcpe\JwtUtils;
-use xpocketmc\network\mcpe\protocol\types\login\JwtChainLinkBody;
-use xpocketmc\network\mcpe\protocol\types\login\JwtHeader;
+use pocketmine
+etwork\mcpe\JwtException;
+use pocketmine
+etwork\mcpe\JwtUtils;
+use pocketmine
+etwork\mcpe\protocol\types\login\JwtChainLinkBody;
+use pocketmine
+etwork\mcpe\protocol\types\login\JwtHeader;
 use xpocketmc\scheduler\AsyncTask;
 use xpocketmc\thread\NonThreadSafeValue;
 use function base64_decode;

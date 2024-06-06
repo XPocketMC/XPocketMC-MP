@@ -24,7 +24,8 @@ declare(strict_types=1);
 namespace xpocketmc\world\sound;
 
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\protocol\ClientboundPacket;
+use pocketmine
+etwork\mcpe\protocol\ClientboundPacket;
 
 interface Sound{
 

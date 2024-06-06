@@ -26,8 +26,10 @@ namespace xpocketmc\block\tile;
 use xpocketmc\block\inventory\ChestInventory;
 use xpocketmc\block\inventory\DoubleChestInventory;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
 use xpocketmc\world\format\Chunk;
 use xpocketmc\world\World;
 use function abs;

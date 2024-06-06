@@ -24,8 +24,9 @@ declare(strict_types=1);
 namespace xpocketmc\crash;
 
 use Composer\InstalledVersions;
-use xpocketmc\errorhandler\ErrorTypeToStringMap;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+use pocketmine\erorrhandler\ErrorTypeToStringMap;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 use xpocketmc\plugin\PluginBase;
 use xpocketmc\plugin\PluginManager;
 use xpocketmc\Server;

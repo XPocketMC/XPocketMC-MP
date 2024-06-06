@@ -21,21 +21,34 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\handler;
+namespace pocketmine
+etwork\mcpe\handler;
 
 use xpocketmc\lang\KnownTranslationFactory;
-use xpocketmc\network\mcpe\NetworkSession;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
-use xpocketmc\network\mcpe\protocol\ResourcePackChunkDataPacket;
-use xpocketmc\network\mcpe\protocol\ResourcePackChunkRequestPacket;
-use xpocketmc\network\mcpe\protocol\ResourcePackClientResponsePacket;
-use xpocketmc\network\mcpe\protocol\ResourcePackDataInfoPacket;
-use xpocketmc\network\mcpe\protocol\ResourcePacksInfoPacket;
-use xpocketmc\network\mcpe\protocol\ResourcePackStackPacket;
-use xpocketmc\network\mcpe\protocol\types\Experiments;
-use xpocketmc\network\mcpe\protocol\types\resourcepacks\ResourcePackInfoEntry;
-use xpocketmc\network\mcpe\protocol\types\resourcepacks\ResourcePackStackEntry;
-use xpocketmc\network\mcpe\protocol\types\resourcepacks\ResourcePackType;
+use pocketmine
+etwork\mcpe\NetworkSession;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\ResourcePackChunkDataPacket;
+use pocketmine
+etwork\mcpe\protocol\ResourcePackChunkRequestPacket;
+use pocketmine
+etwork\mcpe\protocol\ResourcePackClientResponsePacket;
+use pocketmine
+etwork\mcpe\protocol\ResourcePackDataInfoPacket;
+use pocketmine
+etwork\mcpe\protocol\ResourcePacksInfoPacket;
+use pocketmine
+etwork\mcpe\protocol\ResourcePackStackPacket;
+use pocketmine
+etwork\mcpe\protocol\types\Experiments;
+use pocketmine
+etwork\mcpe\protocol\types\resourcepacks\ResourcePackInfoEntry;
+use pocketmine
+etwork\mcpe\protocol\types\resourcepacks\ResourcePackStackEntry;
+use pocketmine
+etwork\mcpe\protocol\types\resourcepacks\ResourcePackType;
 use xpocketmc\resourcepacks\ResourcePack;
 use function array_keys;
 use function array_map;

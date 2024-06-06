@@ -1,5 +1,6 @@
 # Minecraft: Bedrock Edition network & protocol components
-This directory (the `xpocketmc\network\mcpe` namespace) contains code specific to the current version of Minecraft: Bedrock Edition.
+This directory (the `pocketmine
+etwork\mcpe` namespace) contains code specific to the current version of Minecraft: Bedrock Edition.
 
 ## WARNING
 This namespace should be considered **INTERNAL in its entirety**. Publicly exposed API in this namespace can and will change frequently, and without warning.

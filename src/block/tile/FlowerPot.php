@@ -29,11 +29,16 @@ use xpocketmc\block\RuntimeBlockStateRegistry;
 use xpocketmc\data\bedrock\block\BlockStateDeserializeException;
 use xpocketmc\data\bedrock\block\BlockStateNames;
 use xpocketmc\data\SavedDataLoadingException;
-use xpocketmc\nbt\tag\ByteTag;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\IntTag;
-use xpocketmc\nbt\tag\ShortTag;
-use xpocketmc\network\mcpe\convert\TypeConverter;
+use pocketmine
+bt\tag\ByteTag;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\IntTag;
+use pocketmine
+bt\tag\ShortTag;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
 use xpocketmc\world\format\io\GlobalBlockStateHandlers;
 
 /**

@@ -23,7 +23,7 @@ declare(strict_types=1);
 
 namespace xpocketmc\utils;
 
-use xpocketmc\errorhandler\ErrorToExceptionHandler;
+use pocketmine\erorrhandler\ErrorToExceptionHandler;
 use Symfony\Component\Filesystem\Path;
 use function array_change_key_case;
 use function array_fill_keys;

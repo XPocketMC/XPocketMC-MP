@@ -25,9 +25,12 @@ namespace xpocketmc\world\particle;
 
 use xpocketmc\block\Block;
 use pocketmine\math\Vector3;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\LevelEventPacket;
-use xpocketmc\network\mcpe\protocol\types\ParticleIds;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\LevelEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ParticleIds;
 
 class TerrainParticle implements Particle{
 	public function __construct(private Block $b){}

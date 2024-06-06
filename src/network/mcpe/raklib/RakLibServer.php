@@ -21,11 +21,12 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\raklib;
+namespace pocketmine
+etwork\mcpe\raklib;
 
 use pmmp\thread\Thread as NativeThread;
 use pmmp\thread\ThreadSafeArray;
-use xpocketmc\snooze\SleeperHandlerEntry;
+use pocketmine\snooze\SleeperHandlerEntry;
 use xpocketmc\thread\log\ThreadSafeLogger;
 use xpocketmc\thread\NonThreadSafeValue;
 use xpocketmc\thread\Thread;

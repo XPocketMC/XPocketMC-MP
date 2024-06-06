@@ -27,8 +27,10 @@ use xpocketmc\block\BlockTypeIds;
 use xpocketmc\inventory\SimpleInventory;
 use xpocketmc\item\Item;
 use xpocketmc\item\ItemTypeIds;
-use xpocketmc\network\mcpe\protocol\BlockEventPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\BlockEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
 use xpocketmc\world\Position;
 use xpocketmc\world\sound\ShulkerBoxCloseSound;
 use xpocketmc\world\sound\ShulkerBoxOpenSound;

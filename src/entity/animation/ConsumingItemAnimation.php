@@ -25,9 +25,12 @@ namespace xpocketmc\entity\animation;
 
 use xpocketmc\entity\Living;
 use xpocketmc\item\Item;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\ActorEventPacket;
-use xpocketmc\network\mcpe\protocol\types\ActorEvent;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\ActorEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\ActorEvent;
 
 final class ConsumingItemAnimation implements Animation{
 

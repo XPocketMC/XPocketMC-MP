@@ -23,8 +23,8 @@ declare(strict_types=1);
 
 namespace xpocketmc;
 
-use xpocketmc\snooze\SleeperHandler;
-use xpocketmc\snooze\SleeperHandlerEntry;
+use pocketmine\snooze\SleeperHandler;
+use pocketmine\snooze\SleeperHandlerEntry;
 use xpocketmc\timings\TimingsHandler;
 use xpocketmc\utils\Utils;
 use function hrtime;

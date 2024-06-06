@@ -29,7 +29,7 @@ namespace xpocketmc\utils;
 
 use DaveRandom\CallbackValidator\CallbackType;
 use xpocketmc\entity\Location;
-use xpocketmc\errorhandler\ErrorTypeToStringMap;
+use pocketmine\erorrhandler\ErrorTypeToStringMap;
 use pocketmine\math\Vector3;
 use xpocketmc\thread\ThreadCrashInfoFrame;
 use Ramsey\Uuid\Uuid;

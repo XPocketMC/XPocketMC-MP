@@ -24,7 +24,8 @@ declare(strict_types=1);
 /**
  * Network-related classes
  */
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 /**
  * Network interfaces are transport layers which can be used to transmit packets between the server and clients.

@@ -25,7 +25,8 @@ namespace xpocketmc\plugin;
 
 use xpocketmc\lang\KnownTranslationFactory;
 use xpocketmc\lang\Translatable;
-use xpocketmc\network\mcpe\protocol\ProtocolInfo;
+use pocketmine
+etwork\mcpe\protocol\ProtocolInfo;
 use xpocketmc\utils\Utils;
 use xpocketmc\utils\VersionString;
 use function array_intersect;

@@ -27,8 +27,10 @@ use xpocketmc\block\tile\EnderChest;
 use xpocketmc\inventory\DelegateInventory;
 use xpocketmc\inventory\Inventory;
 use xpocketmc\inventory\PlayerEnderInventory;
-use xpocketmc\network\mcpe\protocol\BlockEventPacket;
-use xpocketmc\network\mcpe\protocol\types\BlockPosition;
+use pocketmine
+etwork\mcpe\protocol\BlockEventPacket;
+use pocketmine
+etwork\mcpe\protocol\types\BlockPosition;
 use xpocketmc\player\Player;
 use xpocketmc\world\Position;
 use xpocketmc\world\sound\EnderChestCloseSound;

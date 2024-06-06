@@ -35,41 +35,76 @@ use xpocketmc\crafting\json\SmithingTrimRecipeData;
 use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\item\BlockItemIdMap;
 use xpocketmc\data\bedrock\item\ItemTypeNames;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\tag\ListTag;
-use xpocketmc\nbt\TreeRoot;
-use xpocketmc\network\mcpe\convert\BlockStateDictionary;
-use xpocketmc\network\mcpe\convert\BlockTranslator;
-use xpocketmc\network\mcpe\convert\ItemTranslator;
-use xpocketmc\network\mcpe\handler\PacketHandler;
-use xpocketmc\network\mcpe\protocol\AvailableActorIdentifiersPacket;
-use xpocketmc\network\mcpe\protocol\BiomeDefinitionListPacket;
-use xpocketmc\network\mcpe\protocol\CraftingDataPacket;
-use xpocketmc\network\mcpe\protocol\CreativeContentPacket;
-use xpocketmc\network\mcpe\protocol\PacketPool;
-use xpocketmc\network\mcpe\protocol\serializer\ItemTypeDictionary;
-use xpocketmc\network\mcpe\protocol\serializer\PacketSerializer;
-use xpocketmc\network\mcpe\protocol\StartGamePacket;
-use xpocketmc\network\mcpe\protocol\types\CacheableNbt;
-use xpocketmc\network\mcpe\protocol\types\inventory\CreativeContentEntry;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStack;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackExtraData;
-use xpocketmc\network\mcpe\protocol\types\inventory\ItemStackExtraDataShield;
-use xpocketmc\network\mcpe\protocol\types\recipe\ComplexAliasItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\FurnaceRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\MolangItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\MultiRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\RecipeIngredient;
-use xpocketmc\network\mcpe\protocol\types\recipe\ShapedRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\ShapelessRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\SmithingTransformRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\SmithingTrimRecipe;
-use xpocketmc\network\mcpe\protocol\types\recipe\StringIdMetaItemDescriptor;
-use xpocketmc\network\mcpe\protocol\types\recipe\TagItemDescriptor;
-use xpocketmc\network\PacketHandlingException;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\tag\ListTag;
+use pocketmine
+bt\TreeRoot;
+use pocketmine
+etwork\mcpe\convert\BlockStateDictionary;
+use pocketmine
+etwork\mcpe\convert\BlockTranslator;
+use pocketmine
+etwork\mcpe\convert\ItemTranslator;
+use pocketmine
+etwork\mcpe\handler\PacketHandler;
+use pocketmine
+etwork\mcpe\protocol\AvailableActorIdentifiersPacket;
+use pocketmine
+etwork\mcpe\protocol\BiomeDefinitionListPacket;
+use pocketmine
+etwork\mcpe\protocol\CraftingDataPacket;
+use pocketmine
+etwork\mcpe\protocol\CreativeContentPacket;
+use pocketmine
+etwork\mcpe\protocol\PacketPool;
+use pocketmine
+etwork\mcpe\protocol\serializer\ItemTypeDictionary;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketSerializer;
+use pocketmine
+etwork\mcpe\protocol\StartGamePacket;
+use pocketmine
+etwork\mcpe\protocol\types\CacheableNbt;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\CreativeContentEntry;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStack;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackExtraData;
+use pocketmine
+etwork\mcpe\protocol\types\inventory\ItemStackExtraDataShield;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\ComplexAliasItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\FurnaceRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\IntIdMetaItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\MolangItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\MultiRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\RecipeIngredient;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\ShapedRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\ShapelessRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\SmithingTransformRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\SmithingTrimRecipe;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\StringIdMetaItemDescriptor;
+use pocketmine
+etwork\mcpe\protocol\types\recipe\TagItemDescriptor;
+use pocketmine
+etwork\PacketHandlingException;
 use xpocketmc\utils\AssumptionFailedError;
 use xpocketmc\utils\Filesystem;
 use xpocketmc\utils\Utils;

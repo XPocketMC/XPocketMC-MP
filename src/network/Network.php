@@ -24,7 +24,8 @@ declare(strict_types=1);
 /**
  * Network-related classes
  */
-namespace xpocketmc\network;
+namespace pocketmine
+etwork;
 
 use xpocketmc\event\server\NetworkInterfaceRegisterEvent;
 use xpocketmc\event\server\NetworkInterfaceUnregisterEvent;

@@ -21,10 +21,13 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\query;
+namespace pocketmine
+etwork\query;
 
-use xpocketmc\network\AdvancedNetworkInterface;
-use xpocketmc\network\Network;
+use pocketmine
+etwork\AdvancedNetworkInterface;
+use pocketmine
+etwork\Network;
 use function preg_match;
 use function socket_bind;
 use function socket_close;

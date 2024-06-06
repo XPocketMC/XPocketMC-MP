@@ -26,7 +26,7 @@ namespace xpocketmc\scheduler;
 use PHPUnit\Framework\TestCase;
 use pmmp\thread\ThreadSafeArray;
 use xpocketmc\promise\PromiseResolver;
-use xpocketmc\snooze\SleeperHandler;
+use pocketmine\snooze\SleeperHandler;
 use xpocketmc\thread\ThreadSafeClassLoader;
 use xpocketmc\utils\MainLogger;
 use function define;

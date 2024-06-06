@@ -32,9 +32,12 @@ use xpocketmc\item\VanillaItems;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\network\mcpe\protocol\AddPaintingPacket;
-use xpocketmc\network\mcpe\protocol\types\entity\EntityIds;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+etwork\mcpe\protocol\AddPaintingPacket;
+use pocketmine
+etwork\mcpe\protocol\types\entity\EntityIds;
 use xpocketmc\player\Player;
 use xpocketmc\world\particle\BlockBreakParticle;
 use xpocketmc\world\World;

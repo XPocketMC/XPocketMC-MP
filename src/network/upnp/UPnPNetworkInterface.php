@@ -21,9 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\upnp;
+namespace pocketmine
+etwork\upnp;
 
-use xpocketmc\network\NetworkInterface;
+use pocketmine
+etwork\NetworkInterface;
 use xpocketmc\utils\Internet;
 use xpocketmc\utils\InternetException;
 

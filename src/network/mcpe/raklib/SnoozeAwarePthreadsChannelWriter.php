@@ -21,10 +21,11 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe\raklib;
+namespace pocketmine
+etwork\mcpe\raklib;
 
 use pmmp\thread\ThreadSafeArray;
-use xpocketmc\snooze\SleeperNotifier;
+use pocketmine\snooze\SleeperNotifier;
 use raklib\server\ipc\InterThreadChannelWriter;
 
 final class SnoozeAwarePthreadsChannelWriter implements InterThreadChannelWriter{

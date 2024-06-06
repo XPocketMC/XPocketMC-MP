@@ -27,11 +27,16 @@ use xpocketmc\block\Block;
 use xpocketmc\data\bedrock\BiomeIds;
 use xpocketmc\data\bedrock\block\BlockStateDeserializeException;
 use xpocketmc\data\bedrock\block\convert\UnsupportedBlockStateException;
-use xpocketmc\nbt\LittleEndianNbtSerializer;
-use xpocketmc\nbt\NBT;
-use xpocketmc\nbt\NbtDataException;
-use xpocketmc\nbt\tag\CompoundTag;
-use xpocketmc\nbt\TreeRoot;
+use pocketmine
+bt\LittleEndianNbtSerializer;
+use pocketmine
+bt\NBT;
+use pocketmine
+bt\NbtDataException;
+use pocketmine
+bt\tag\CompoundTag;
+use pocketmine
+bt\TreeRoot;
 use xpocketmc\utils\Binary;
 use xpocketmc\utils\BinaryDataException;
 use xpocketmc\utils\BinaryStream;

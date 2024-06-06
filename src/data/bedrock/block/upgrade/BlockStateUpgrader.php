@@ -24,8 +24,10 @@ declare(strict_types=1);
 namespace xpocketmc\data\bedrock\block\upgrade;
 
 use xpocketmc\data\bedrock\block\BlockStateData;
-use xpocketmc\nbt\tag\StringTag;
-use xpocketmc\nbt\tag\Tag;
+use pocketmine
+bt\tag\StringTag;
+use pocketmine
+bt\tag\Tag;
 use xpocketmc\utils\Utils;
 use function count;
 use function is_string;

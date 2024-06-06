@@ -21,16 +21,25 @@
 
 declare(strict_types=1);
 
-namespace xpocketmc\network\mcpe;
+namespace pocketmine
+etwork\mcpe;
 
-use xpocketmc\network\mcpe\compression\CompressBatchPromise;
-use xpocketmc\network\mcpe\compression\Compressor;
-use xpocketmc\network\mcpe\convert\TypeConverter;
-use xpocketmc\network\mcpe\protocol\LevelChunkPacket;
-use xpocketmc\network\mcpe\protocol\serializer\PacketBatch;
-use xpocketmc\network\mcpe\protocol\types\ChunkPosition;
-use xpocketmc\network\mcpe\protocol\types\DimensionIds;
-use xpocketmc\network\mcpe\serializer\ChunkSerializer;
+use pocketmine
+etwork\mcpe\compression\CompressBatchPromise;
+use pocketmine
+etwork\mcpe\compression\Compressor;
+use pocketmine
+etwork\mcpe\convert\TypeConverter;
+use pocketmine
+etwork\mcpe\protocol\LevelChunkPacket;
+use pocketmine
+etwork\mcpe\protocol\serializer\PacketBatch;
+use pocketmine
+etwork\mcpe\protocol\types\ChunkPosition;
+use pocketmine
+etwork\mcpe\protocol\types\DimensionIds;
+use pocketmine
+etwork\mcpe\serializer\ChunkSerializer;
 use xpocketmc\scheduler\AsyncTask;
 use xpocketmc\thread\NonThreadSafeValue;
 use xpocketmc\utils\BinaryStream;

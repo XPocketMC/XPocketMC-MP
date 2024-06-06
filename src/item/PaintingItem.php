@@ -27,7 +27,7 @@ use xpocketmc\block\Block;
 use xpocketmc\entity\Location;
 use xpocketmc\entity\object\Painting;
 use xpocketmc\entity\object\PaintingMotive;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use xpocketmc\player\Player;

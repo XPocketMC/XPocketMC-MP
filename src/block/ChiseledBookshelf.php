@@ -32,7 +32,7 @@ use xpocketmc\item\Book;
 use xpocketmc\item\EnchantedBook;
 use xpocketmc\item\Item;
 use xpocketmc\item\WritableBookBase;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use xpocketmc\player\Player;

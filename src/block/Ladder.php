@@ -28,7 +28,7 @@ use xpocketmc\block\utils\SupportType;
 use xpocketmc\entity\Entity;
 use xpocketmc\entity\Living;
 use xpocketmc\item\Item;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;

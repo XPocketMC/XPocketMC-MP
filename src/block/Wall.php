@@ -26,7 +26,7 @@ namespace xpocketmc\block;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\block\utils\WallConnectionType;
 use xpocketmc\data\runtime\RuntimeDataDescriber;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 

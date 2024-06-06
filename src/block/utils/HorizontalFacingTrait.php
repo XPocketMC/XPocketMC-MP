@@ -24,7 +24,7 @@ declare(strict_types=1);
 namespace xpocketmc\block\utils;
 
 use xpocketmc\data\runtime\RuntimeDataDescriber;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 
 trait HorizontalFacingTrait{

@@ -26,7 +26,7 @@ namespace xpocketmc\data\runtime;
 use xpocketmc\block\utils\BrewingStandSlot;
 use xpocketmc\block\utils\RailConnectionInfo;
 use xpocketmc\block\utils\WallConnectionType;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use xpocketmc\utils\AssumptionFailedError;
 use function get_class;

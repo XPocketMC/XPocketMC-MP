@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\HorizontalFacingTrait;
 use xpocketmc\item\Item;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use xpocketmc\player\Player;

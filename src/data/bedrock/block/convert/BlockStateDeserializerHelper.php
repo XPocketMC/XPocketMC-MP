@@ -60,7 +60,7 @@ use xpocketmc\data\bedrock\block\BlockStateNames;
 use xpocketmc\data\bedrock\block\BlockStateNames as StateNames;
 use xpocketmc\data\bedrock\block\BlockStateStringValues as StringValues;
 use xpocketmc\data\bedrock\MushroomBlockTypeIdMap;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use xpocketmc\utils\AssumptionFailedError;
 

@@ -30,7 +30,7 @@ use xpocketmc\event\block\StructureGrowEvent;
 use xpocketmc\item\Fertilizer;
 use xpocketmc\item\Item;
 use xpocketmc\item\VanillaItems;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;

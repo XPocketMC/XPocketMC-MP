@@ -27,7 +27,7 @@ use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\block\utils\SupportType;
 use xpocketmc\entity\Entity;
 use xpocketmc\event\block\PressurePlateUpdateEvent;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use xpocketmc\world\sound\PressurePlateActivateSound;

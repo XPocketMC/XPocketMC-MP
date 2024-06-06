@@ -25,7 +25,7 @@ namespace xpocketmc\block;
 
 use xpocketmc\block\utils\PillarRotationTrait;
 use xpocketmc\block\utils\SupportType;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 

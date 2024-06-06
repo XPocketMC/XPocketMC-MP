@@ -27,7 +27,7 @@ use xpocketmc\block\utils\AgeableTrait;
 use xpocketmc\block\utils\StaticSupportTrait;
 use xpocketmc\entity\projectile\Projectile;
 use xpocketmc\event\block\StructureGrowEvent;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\AxisAlignedBB;
 use pocketmine\math\Facing;
 use pocketmine\math\RayTraceResult;

@@ -56,7 +56,7 @@ use xpocketmc\data\bedrock\block\BlockStateStringValues as StringValues;
 use xpocketmc\data\bedrock\block\BlockTypeNames as Ids;
 use xpocketmc\data\bedrock\block\convert\BlockStateDeserializerHelper as Helper;
 use xpocketmc\data\bedrock\block\convert\BlockStateReader as Reader;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use function array_key_exists;
 use function count;

@@ -32,7 +32,7 @@ use xpocketmc\data\bedrock\block\BlockStateData;
 use xpocketmc\data\bedrock\block\BlockStateDeserializeException;
 use xpocketmc\data\bedrock\block\BlockStateNames;
 use xpocketmc\data\bedrock\block\BlockStateStringValues as StringValues;
-use xpocketmc\math\Axis;
+use pocketmine\math\Axis;
 use pocketmine\math\Facing;
 use pocketmine
 bt\tag\ByteTag;
